@@ -9,9 +9,7 @@ tags:
   - projects
 ---
 
-##### Name: Christopher Anderson
-##### Semester: DSC680-T301 (2213-1) Winter 2020-2021
-##### Github Portfolio URL: [https://chrisinoakland.github.io][https://chrisinoakland.github.io]
+## Project Proposal
 
 ### Which Domain?
 
