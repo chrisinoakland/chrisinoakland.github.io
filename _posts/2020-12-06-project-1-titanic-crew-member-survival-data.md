@@ -9,9 +9,9 @@ tags:
   - projects
 ---
 
-#### Name: Christopher Anderson
-#### Semester: DSC680-T301 (2213-1) Winter 2020-2021
-#### Github Portfolio URL: https://chrisinoakland.github.io
+##### Name: Christopher Anderson
+##### Semester: DSC680-T301 (2213-1) Winter 2020-2021
+##### Github Portfolio URL: https://chrisinoakland.github.io
 
 ### Which Domain?
 
@@ -19,7 +19,7 @@ _What domain is this data going to come from? Please list 10 references (with a 
 
 The sinking of the Titanic is a heart-breaking tale, and while much of the tragedy focuses on the passengers of the ship, I feel the workers have a story that goes untold. My first project will be an analysis of the crew members employed by the White Star Line that were aboard the fateful voyage.
 
-####References and Annotations:
+#### References and Annotations:
 1. Harrell, Frank E. (2002, December 27). "Titanic Data” from http:// biostat.mc.vanderbilt.edu/wiki/pub/Main/DataSets/titanic.html
 2. Zuckerman, Arthur. (2020, May 24). “57 Titanic Statistics: Deaths, Passengers & Survivors” from https://comparecamp.com/titanic-statistics/
 3. Encyclopedia Titanica. (2020). “Titanic Crew Survivors” from https:// www.encyclopedia-titanica.org/titanic-crew-survivors/
@@ -32,7 +32,7 @@ The sinking of the Titanic is a heart-breaking tale, and while much of the trage
 9. RMS Titanic - Ship of Dreams. (2014). “Designing & Building Titanic” from http://www.titanicandco.com/construction.html
 10.History. (2020, October 30). “Titanic by the Numbers: From Construction to Disaster to Discovery” from https://www.history.com/news/titanic-facts- construction-passengers-sinking-discovery
 
-###Which Data?
+### Which Data?
 
 _What is the dataset you’ll be examining? Please provide a codebook if there is one or a link to the dataset as well as a detailed description._
 
