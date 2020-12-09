@@ -24,7 +24,7 @@ github_username: chrisinoakland
 # minimal_mistakes_skin: default
 minimal_mistakes_skin: "contrast" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
 
-search: true
+search: false
 
 # Build settings
 markdown: kramdown
