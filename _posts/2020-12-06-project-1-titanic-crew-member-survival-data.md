@@ -33,7 +33,7 @@ The sinking of the Titanic is a heart-breaking tale, and while much of the trage
 
 _What is the dataset you’ll be examining? Please provide a codebook if there is one or a link to the dataset as well as a detailed description._
 
-For information specifically on Titanic’s crew, I will be using data from the Titanic People Database as created by Encyclopedia Titanica. More information can be found at https://www.encyclopedia-titanica.org. The site has an online and downloadable listing of records of passengers and crew, survivors, etc. I’m a bit of a Titanic junkie, so I already had a subscription to this site which allows for more granular downloading of data in csv format. Another source of data is Kaggle: https://www.kaggle.com/c/titanic/ data.
+For information specifically on Titanic’s crew, I will be using data from the Titanic People Database as created by Encyclopedia Titanica. More information can be found at [https://www.encyclopedia-titanica.org](https://www.encyclopedia-titanica.org). The site has an online and downloadable listing of records of passengers and crew, survivors, etc. I’m a bit of a Titanic junkie, so I already had a subscription to this site which allows for more granular downloading of data in csv format. Another source of data is Kaggle: https://www.kaggle.com/c/titanic/ data.
              2
 
 These are a few of the variables that I will be exploring:
