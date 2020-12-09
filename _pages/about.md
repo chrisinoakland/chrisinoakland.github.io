@@ -3,6 +3,17 @@ permalink: /about/
 title: "About"
 ---
 
-Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.
+I have put on many hats in this wonderful life in the technology industry, 
+beginning with troubleshooting PC hardware and software issues at that small 
+computer consulting company (which went on to become one of the biggest in 
+central Nebraska), on through supporting networked environments using Microsoft 
+Systems Management Server and Symantec’s anti-virus products, being a Linux 
+administrator, becoming an inventor and entrepreneur after getting bitten by 
+the Apple bug and falling in love with iPod and Mac, which lead to teaching myself 
+HTML and CSS and web design, taking me down the path of becoming the user experience 
+architect for Valley Irrigation, a subsidiary of Valmont Industries.
 
-Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusmod. Aliquip tempor veniam sint elit fugiat. Velit incididunt laboris amet incididunt labore dolore irure velit excepteur commodo deserunt laborum. Consectetur eu fugiat veniam veniam Lorem labore magna eiusmod. Ea occaecat reprehenderit pariatur consectetur minim labore ut aliquip.
+It’s been a truly wonderful journey thus far, and I feel absolutely lucky to be 
+where I am. I am humbled that this beautiful path of learning has now delivered 
+me to the doorstep of data science, and well, here we are, about to cross the 
+finish line of completing a master’s degree.
