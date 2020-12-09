@@ -62,7 +62,7 @@ plugins:
 author:
   name   : "Christopher Anderson"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "MSDS Portfolio"
+  bio    : "MSDS Portfolio Site"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
