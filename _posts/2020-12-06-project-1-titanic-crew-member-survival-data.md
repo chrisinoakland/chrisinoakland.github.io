@@ -9,6 +9,9 @@ tags:
   - projects
 ---
 
+- [Project Proposal](#project-proposal)
+- [Project Check-In / Milestone 2](#project-check-in--milestone-2)
+
 ## Project Proposal
 
 ### Which Domain?
