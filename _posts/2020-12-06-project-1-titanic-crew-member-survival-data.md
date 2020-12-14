@@ -81,7 +81,7 @@ There were many people that died when RMS Titanic sank on its maiden voyage in A
 
 The sinking of the Titanic is a heart-breaking tale, and while much of the tragedy focuses on the passengers of the ship, I feel the workers have a story that goes untold. My first project is an analysis of the crew members employed by the White Star Line that were aboard the fateful voyage. So far, there isn’t anything too surprising with the data; however, it was a bit jarring to see how far many more men were members of the crew than women. But after looking over the data and seeing it from the perspective of the different departments, it began to make sense as there were many more men that were parts of the crew to shovel coal into the boilers to provide power and electricity to the steam-powered ship.
 
-### I_s the dataset what you thought it was?_
+### _Is the dataset what you thought it was?_
 
 Going into it, I was pretty confident that that dataset from the Titanic People Database as created by Encyclopedia Titanica — [https://www.encyclopedia-titanica.org](https://www.encyclopedia-titanica.org) — was going to be what I expected, and it turned out that it was. As I’m a bit of a Titanic diehard, I already had a subscription to this site which allows for more granular downloading of data in csv format and I was able to view online and download a listing of records of all crew data including survival data. I also retrieved data from Kaggle: [https://www.kaggle.com/c/titanic/data](https://www.kaggle.com/c/titanic/data) as a way to do cross-referencing and build out a more complete dataset if/as needed.
 
