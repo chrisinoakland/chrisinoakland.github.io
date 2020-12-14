@@ -10,7 +10,7 @@ tags:
 ---
 
 - [Project Proposal](#project-proposal)
-- [Project Check-In / Milestone 2](#project-check-in--milestone-2)
+- [Project Check-In](#project-check-in)
 
 ## Project Proposal
 
@@ -78,7 +78,7 @@ I am worried about not having enough information to draw any conclusions that I 
 
 There were many people that died when RMS Titanic sank on its maiden voyage in April 1912, including those who were crew members, employed by the White Star Line to service the passengers on the ship. I am exploring data on the crew members to look for any trends in the data from those that survived the disaster.
 
-## Project Check-In / Milestone 2
+## Project Check-In
 
 ### _Any surprises from your domain from these data?_
 
