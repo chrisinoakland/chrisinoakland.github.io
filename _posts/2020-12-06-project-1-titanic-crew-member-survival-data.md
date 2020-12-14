@@ -33,7 +33,7 @@ The sinking of the Titanic is a heart-breaking tale, and while much of the trage
 
 _What is the dataset you’ll be examining? Please provide a codebook if there is one or a link to the dataset as well as a detailed description._
 
-For information specifically on Titanic’s crew, I will be using data from the Titanic People Database as created by Encyclopedia Titanica. More information can be found at [https://www.encyclopedia-titanica.org](https://www.encyclopedia-titanica.org). The site has an online and downloadable listing of records of passengers and crew, survivors, etc. I’m a bit of a Titanic junkie, so I already had a subscription to this site which allows for more granular downloading of data in csv format. Another source of data is Kaggle: https://www.kaggle.com/c/titanic/ data.
+For information specifically on Titanic’s crew, I will be using data from the Titanic People Database as created by Encyclopedia Titanica. More information can be found at [https://www.encyclopedia-titanica.org](https://www.encyclopedia-titanica.org). The site has an online and downloadable listing of records of passengers and crew, survivors, etc. I’m a bit of a Titanic junkie, so I already had a subscription to this site which allows for more granular downloading of data in csv format. Another source of data is Kaggle: [https://www.kaggle.com/c/titanic/data](https://www.kaggle.com/c/titanic/data).
              2
 
 These are a few of the variables that I will be exploring:
@@ -83,7 +83,7 @@ The sinking of the Titanic is a heart-breaking tale, and while much of the trage
 
 ### I_s the dataset what you thought it was?_
 
-Going into it, I was pretty confident that that dataset from the Titanic People Database as created by Encyclopedia Titanica — [https://www.encyclopedia-titanica.org](https://www.encyclopedia-titanica.org) — was going to be what I expected, and it turned out that it was. As I’m a bit of a Titanic diehard, I already had a subscription to this site which allows for more granular downloading of data in csv format and I was able to view online and download a listing of records of all crew data including survival data. I also retrieved data from Kaggle: https://www.kaggle.com/c/titanic/data as a way to do cross-referencing and build out a more complete dataset if/as needed.
+Going into it, I was pretty confident that that dataset from the Titanic People Database as created by Encyclopedia Titanica — [https://www.encyclopedia-titanica.org](https://www.encyclopedia-titanica.org) — was going to be what I expected, and it turned out that it was. As I’m a bit of a Titanic diehard, I already had a subscription to this site which allows for more granular downloading of data in csv format and I was able to view online and download a listing of records of all crew data including survival data. I also retrieved data from Kaggle: [https://www.kaggle.com/c/titanic/data](https://www.kaggle.com/c/titanic/data) as a way to do cross-referencing and build out a more complete dataset if/as needed.
 
 ### _Have you had to adjust your approach or research questions?_
 
