@@ -1,6 +1,6 @@
 ---
 title: "Project 1: Titanic Crew Member Survival Data"
-date: 2020-12-06T17:30:30-04:00
+date: 2020-12-13T14:34:30-04:00
 categories:
   - blog
 tags:
