@@ -12,6 +12,7 @@ tags:
 - [Project Proposal](#project-proposal)
 - [Project Check-In](#project-check-in)
 - [Project Report](#project-report)
+- [Questions and Answers](#questions-and-answers)
 
 ## Project Proposal
 
@@ -399,3 +400,6 @@ While there was not much correlation to the port (city) in which the crew member
 8. Lehnhardt, Karin. (2019, July 3). “45 Unsinkable Titanic Facts” from [https://www.factretriever.com/titanic-facts](https://www.factretriever.com/titanic-facts)
 9. RMS Titanic - Ship of Dreams. (2014). “Designing & Building Titanic” from [http://www.titanicandco.com/construction.html](http://www.titanicandco.com/construction.html)
 10. History. (2020, October 30). “Titanic by the Numbers: From Construction to Disaster to Discovery” from [https://www.history.com/news/titanic-facts- construction-passengers-sinking-discovery](https://www.history.com/news/titanic-facts- construction-passengers-sinking-discovery)
+
+## Questions and Answers
+
