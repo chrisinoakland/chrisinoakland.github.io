@@ -285,6 +285,8 @@ ax.set_xlabel('')
 plt.show()
 ```
 
+![Titanic Crew Survivors and Non-Survivors](crew_all.png)
+
 To answer the research question of how many of the crew members were men and how many were women, let's again turn to a bar chart:
 
 ```
