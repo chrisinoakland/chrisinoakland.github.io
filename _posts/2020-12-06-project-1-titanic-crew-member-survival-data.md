@@ -303,6 +303,8 @@ ax.set_xlabel('')
 plt.show()
 ```
 
+![Titanic Crew Gender](/assets/images/crew_gender.png)
+
 Looking at the data, the number of male crew members aboard the Titanic’s maiden voyage far outnumbered the women. In fact, of the 891 crew members, only 23 were women. Why such a large discrepancy? For that we should look more into the different departments that worked aboard the ship. Here's that data:
 
 ```
@@ -315,6 +317,8 @@ ax.set_ylabel('Crew Members', fontsize=18)
 ax.set_xlabel('')
 plt.show()
 ```
+
+![Titanic Crew Departments](/assets/images/crew_departments.png)
 
 This information shows that most of the crew members of _Titanic_ were in the victualling department; this is the department that provides all the services for the occupants of the ship: food, housekeeping, laundry, room service, etc.
 
@@ -348,9 +352,13 @@ ax.set_xlabel('')
 plt.show()
 ```
 
+![Titanic Crew Survivors: Departments](/assets/images/survivors_departments.png)
+
 This chart looks a bit different that the listing of all crew members. You can see that all five of the postal clerks aboard the ship did not survive, and that while a good majority of the deck crew did, many of the members of the engineering and victualling departments did not.
 
 One final chart, this showing the crew survivors by gender:
+
+![Titanic Crew Survivors: Gender](/assets/images/survivors_gender.png)
 
 ```
 # Gender:
