@@ -125,7 +125,7 @@ The site has an online and downloadable listing of records of passengers and cre
 
 After downloading and looking through the dataset from Encyclopedia Titanica, it was determined that I would not require any additional data from the Kaggle dataset, as I already had everything I looking for. Here’s a look at the initial steps of data input and verification:
 
-```{python import, echo=TRUE, collapse=TRUE, results=FALSE}
+```
 import pandas as pd
 import yellowbrick
 
@@ -167,7 +167,7 @@ After all of this research, and thereby realizing how the 236 crew member number
 
 As the default downloaded list, the crew members of _Titanic’s_ maiden voyage contained a total of 1,126 rows, each representing a life aboard the ship working hard to make the trip safe, successful, and enjoyable for the passengers. As discussed in the previous section, this data isn’t going to be accurate for the analysis of who survived or not, since 236 crew members actually departed _Titanic_ before it took off for New York. While the downloaded dataset featured the expected data with column headers such as `Name`, `Gender`, `Class/Dept`, and `Occupation`, there were also numerous columns that would not be beneficial nor required for this analysis. The columns that I removed from the dataset include `Born`, `Died`, `Boat`, `Body`, and `URL`. Additionally, there are three columns with empty data that won’t be used: `Ticket`, `Fare`, and `Cabin`. Once I had things pared down, this is what the dataset looked like after getting rid of unneeded data:
 
-```{python step11, echo=TRUE, collapse=TRUE, results=TRUE}
+```
 # Remove rows that don't contain survival data:
 crew = crew[crew.Survived.notnull()]
 
@@ -190,7 +190,7 @@ print(crew.head(5))
 
 By cleaning the data to remove all unneeded information, we get a dataframe with 891 rows and 8 columns (variables), which will aid in trying to find any clues to the research questions. But before we start asking those research questions, let's get a closer look into what our dataset now contains:
 
-```{python variables, echo=TRUE, collapse=TRUE, results=TRUE}
+```
 # What type of variables are in the table:
 print("Describe Data")
 print(crew.describe())
@@ -219,7 +219,7 @@ After verifying and removing all unnecessary _Titanic_ crew member data, the nex
 
 After completing the three previous steps, it was time to do the last portion of my  cleanup process — looking for and removing any duplicate entries. Let’s look at the code to do that:
 
-```{python duplicates, echo=TRUE, collapse=TRUE, results=TRUE}
+```
 # Find and remove any duplicate entries
 crew_duplicates = crew.duplicated()
 print('Number of duplicate entries found: {}'.format(crew_duplicates.sum()))
@@ -227,7 +227,7 @@ print('Number of duplicate entries found: {}'.format(crew_duplicates.sum()))
 
 It looks like everything checks out, and that we have no duplicates; however, just to be sure, I want to run another test:
 
-```{python duplicates2, echo=TRUE, collapse=TRUE, results=TRUE}
+```
 # Ensuring that the test for duplicates is accurate:
 duplicate_test = crew.duplicated('Survived').head()
 print('Number of entries with duplicate Survived status in top entries are {}'.format(duplicate_test.sum()))
@@ -260,7 +260,7 @@ It’s now time to tell the data story of _Titanic’s_ crew members. In total, 
 
 Let’s take a closer look at our _Titanic_ crew survival data using a bar chart:
 
-```{python barChart0, echo=TRUE, collapse=TRUE, results=TRUE}
+```
 # Load the cleaned crew data:
 list_cleaned = "titanic_crew.csv"
 crew = pd.read_csv(list_cleaned)
@@ -287,7 +287,7 @@ plt.show()
 
 To answer the research question of how many of the crew members were men and how many were women, let's again turn to a bar chart:
 
-```{python barChart1, echo=TRUE, collapse=TRUE, results=TRUE}
+```
 # Set charting parameters:
 plt.style.use('fivethirtyeight')
 
@@ -303,7 +303,7 @@ plt.show()
 
 Looking at the data, the number of male crew members aboard the Titanic’s maiden voyage far outnumbered the women. In fact, of the 891 crew members, only 23 were women. Why such a large discrepancy? For that we should look more into the different departments that worked aboard the ship. Here's that data:
 
-```{python barChart2, echo=TRUE, collapse=TRUE, results=TRUE}
+```
 # Class/Dept:
 x_ticks_labels = ['Deck','Deck Officers', 'Engineering', 'Postal Clerk', 'Restaurant', 'Victualling']
 ax = crew.groupby('Class/Dept')['Name'].nunique().plot(kind='bar', fontsize=14, figsize=(12,10))
@@ -322,7 +322,7 @@ The next highest amount of crew members aboard _Titanic_ were engineers. The eng
 
 Now let's look at some of the same data showing just survivors of the sinking. First we'll create the new dataframe of just the survivors:
 
-```{python survivorDF, echo=TRUE, collapse=TRUE, results=TRUE}
+```
 # Create a new dataframe of just survivors:
 survivors = crew.loc[crew['Survived'] == 1]
 
@@ -335,7 +335,7 @@ print(survivors.head(5))
 
 Per the chart in our initial look at all of the crew member data, our new `survivors` dataframe verifies that only 212 out of the 891 crew members of _Titanic_ survived the sinking. Now that the data is isolated to show just survivors, let's look at some of the same bar charts as before showing survivor-related data only:
 
-```{python survivorDept, echo=TRUE, collapse=TRUE, results=TRUE}
+```
 # Class/Dept:
 x_ticks_labels = ['Deck','Deck Officers', 'Engineering', 'Restaurant', 'Victualling']
 ax = survivors.groupby('Class/Dept')['Name'].nunique().plot(kind='bar', fontsize=14, figsize=(12,10))
@@ -350,7 +350,7 @@ This chart looks a bit different that the listing of all crew members. You can s
 
 One final chart, this showing the crew survivors by gender:
 
-```{python survivorGender, echo=TRUE, collapse=TRUE, results=TRUE}
+```
 # Gender:
 x_ticks_labels = ['Female','Male']
 ax = survivors.groupby('Gender')['Name'].nunique().plot(kind='bar', fontsize=14, figsize=(12,10))
@@ -362,8 +362,6 @@ plt.show()
 ```
 
 Of the 23 crew members aboard _Titanic_ that were women, 20 of them survived the disaster, right around 87%, whereas of the 868 men, 192 of them survived, a rate of 22%.
-
-
 
 ### Conclusion
 
