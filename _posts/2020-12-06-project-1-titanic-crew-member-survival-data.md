@@ -358,8 +358,6 @@ This chart looks a bit different that the listing of all crew members. You can s
 
 One final chart, this showing the crew survivors by gender:
 
-![Titanic Crew Survivors: Gender](/assets/images/survivors_gender.png)
-
 ```
 # Gender:
 x_ticks_labels = ['Female','Male']
@@ -370,6 +368,8 @@ ax.set_ylabel('Crew Members', fontsize=18)
 ax.set_xlabel('')
 plt.show()
 ```
+
+![Titanic Crew Survivors: Gender](/assets/images/survivors_gender.png)
 
 Of the 23 crew members aboard _Titanic_ that were women, 20 of them survived the disaster, right around 87%, whereas of the 868 men, 192 of them survived, a rate of 22%.
 
