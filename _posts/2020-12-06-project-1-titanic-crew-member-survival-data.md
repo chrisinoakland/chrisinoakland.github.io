@@ -231,7 +231,7 @@ print('Number of entries with duplicate Survived status in top entries are {}'.f
 crew.head()
 ```
 
-Okay, I have verified that when I run a duplicates check on the data using the information in the `Survived` column, I show there are duplicates. It never herts to double-check!
+Okay, I have verified that when I run a duplicates check on the data using the information in the `Survived` column, I show there are duplicates. It never hurts to double-check!
 
 ### Research Questions
 
