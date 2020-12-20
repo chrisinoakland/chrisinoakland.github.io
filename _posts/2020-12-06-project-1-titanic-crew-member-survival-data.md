@@ -405,7 +405,7 @@ While there was not much correlation to the port (city) in which the crew member
 
 1. Why did you choose this as a project subject?
 
-I’ve been interested in the story of Titanic since I was probably ten years old, and especially after it was discovered by Robert Ballard and crew in the summer of 1985. 
+I’ve been interested in the story of Titanic since I was around ten years old, and especially after it was discovered by Robert Ballard and crew in the summer of 1985. 
 
 2. Did anything during this project surprise you? In what way?
 
