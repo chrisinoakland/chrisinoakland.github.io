@@ -403,3 +403,13 @@ While there was not much correlation to the port (city) in which the crew member
 
 ## Questions and Answers
 
+1. Why did you choose this as a project subject?
+2. Did anything during this project surprise you? In what way?
+3. Is there anything that you would have done differently?
+4. Did you get all of the answers to your research questions?
+5. What would you have liked to have gone better?
+6. What did you think of James Cameron’s movie, Titanic?
+7. What good (if any) came as a result of this disaster?
+8. Are there any other research questions you would like to try to find answers for?
+9. Do you have any Titanic artifacts?
+10. How do you feel about salvaging artifacts from Titanic?
