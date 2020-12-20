@@ -403,42 +403,42 @@ While there was not much correlation to the port (city) in which the crew member
 
 ## Questions and Answers
 
-1. Why did you choose this as a project subject?
+Why did you choose this as a project subject?
 
 I’ve been interested in the story of Titanic since I was around ten years old, and especially after it was discovered by Robert Ballard and crew in the summer of 1985. 
 
-2. Did anything during this project surprise you? In what way?
+Did anything during this project surprise you? In what way?
 
 I was a bit surprised at how much less of a chance of survival the 891 crew members of the ship had. I certainly understand doing your job well and being of service, but for some reason I expected the survival rate of the crew to be closer to that of the passengers. Less than 1 in 4 of the crew survived while 4 out of ten passengers did.
 
-3. Is there anything that you would have done differently?
+Is there anything that you would have done differently?
 
 I was hoping to do a stunning visual of the ship and represent the survival data in that fashion, but as of yet I have not gotten that accomplished.
 
-4. Did you get all of the answers to your research questions?
+Did you get all of the answers to your research questions?
 
 Yes.
 
-5. What would you have liked to have gone better?
+What would you have liked to have gone better?
 
 I with that there was more time to get the project done. These are pretty tight deadlines, but that’s okay.
 
-6. What did you think of James Cameron’s movie, Titanic?
+What did you think of James Cameron’s movie, Titanic?
 
 It’s amazing. The replication of the ship and all of the detail was absolutely stunning.
 
-7. What good (if any) came as a result of this disaster?
+What good (if any) came as a result of this disaster?
 
 It’s hard to quantify any good when over 1,500 people lost their lives. But one thing that did happen after the Titanic disaster was that it became a requirement for all ships to carry enough lifeboats for all passengers and crew.
 
-8. Are there any other research questions you would like to try to find answers for?
+Are there any other research questions you would like to try to find answers for?
 
 Not necessarily research questions, but one thing I would like to know more about are the eight people that deserted their post for their duty on Titanic. That would make a wonderful movie. What happened to them afterwards? Did they have success? Did they feel any guilt for having lived (for what it’s worth, I don’t think they should).
 
-9. Do you have any Titanic artifacts?
+Do you have any Titanic artifacts?
 
 No. But I have seen bits of coal salvaged from the wreck site for sale from the company that owns the salvage rights of Titanic’s resting site and I wouldn’t feel guilty about owning that. 
 
-10. How do you feel about salvaging artifacts from Titanic?
+How do you feel about salvaging artifacts from Titanic?
 
 I am torn. One one hand I would love to see parts and artifacts of what is left of the ship in a museum, yet, it is truly a gravesite. Perhaps the best answer is articulate photography and videography and that can be good enough.
