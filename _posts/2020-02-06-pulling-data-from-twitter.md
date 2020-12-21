@@ -6,6 +6,7 @@ categories:
 tags:
   - python
   - weather app
+classes: wide
 ---
 
 How to pull data from Twitter using API's.
