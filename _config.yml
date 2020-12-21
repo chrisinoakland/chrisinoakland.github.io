@@ -60,7 +60,7 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "Christopher Anderson"
+  name   : "Christopher M. Anderson"
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "MSDS Portfolio Site"
   links:
