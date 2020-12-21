@@ -6,7 +6,6 @@ categories:
 tags:
   - facebook
   - research poster
-  - projects
 ---
 
 An extended abstract and research poster about the harm that Facebook is causing humanity. 
