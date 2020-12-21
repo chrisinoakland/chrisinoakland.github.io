@@ -8,7 +8,7 @@ tags:
   - weather app
 ---
 
-A weather forecasting app using Python
+How to create a weather forecasting app using Python.
 
 ### Introduction
 
