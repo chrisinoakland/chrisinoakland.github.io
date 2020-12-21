@@ -7,6 +7,7 @@ tags:
   - titanic
   - project 1
   - projects
+classes: wide
 ---
 
 A project to explore the data of the crew members aboard _RMS Titanic_ and their survival rate.

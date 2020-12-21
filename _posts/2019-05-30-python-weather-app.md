@@ -5,7 +5,8 @@ categories:
   - blog
 tags:
   - python
-  - weather app
+  - weather ap
+classes: wide
 ---
 
 How to create a weather forecasting app using Python.

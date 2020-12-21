@@ -6,6 +6,7 @@ categories:
 tags:
   - facebook
   - research poster
+classes: wide
 ---
 
 An extended abstract and research poster about the harm that Facebook is causing humanity. 
