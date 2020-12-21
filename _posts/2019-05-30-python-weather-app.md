@@ -5,7 +5,7 @@ categories:
   - blog
 tags:
   - python
-  - weather ap
+  - weather app
 classes: wide
 ---
 

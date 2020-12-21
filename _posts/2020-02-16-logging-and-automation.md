@@ -9,9 +9,11 @@ tags:
 classes: wide
 ---
 
+How to use Python to perform logging and automation.
+
 ### Introduction
 
-How to use Python to perform logging and automation
+This code provides a how to on using Python to automate and set up logging of 
 
 ```python
 # File: Exercise10_2.py

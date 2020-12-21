@@ -11,8 +11,8 @@ classes: wide
 
 An extended abstract and research poster about the harm that Facebook is causing humanity. 
 
-- [Project Proposal](#extended-abstract)
-- [Project Check-In](#research-poster)
+- [Extended Abstract](#extended-abstract)
+- [Research Poster](#research-poster)
 
 ## Extended Abstract
 
