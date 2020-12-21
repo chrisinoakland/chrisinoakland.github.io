@@ -49,10 +49,10 @@ import pprint
 
 # ----------| 1) TWITTER API KEYS & ACCESS TOKENS |----------
 
-API_KEY = 'lY8AkXpQkdbe7HyjFjWxFeMz9'
-API_SECRET = '4rczTyNusRadSnoxSsxaCRf3Jopm31p2rvK69TfOWussIWDqtn'
-TOKEN_KEY = '234768738-tUo5D1vgHSGsYhHRCNuZyKwA8uMin7NcB96wdfDd'
-TOKEN_SECRET = 'fpBiHDfyC43bW5iGmUrxBUWNQBwpSE7GGLWDtuBYU61PU'
+API_KEY = 'your key here'
+API_SECRET = 'your secret token here'
+TOKEN_KEY = 'your token key here'
+TOKEN_SECRET = 'your token secret here'
 
 
 # ----------| 2) DATA PULL FROM TWITTER REST API |----------
