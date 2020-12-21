@@ -5,7 +5,9 @@ categories:
   - blog
 tags:
   - python
-  - weather app
+  - twitter
+  - api
+  - pulling data
 classes: wide
 ---
 
