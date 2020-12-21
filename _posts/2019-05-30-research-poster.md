@@ -113,4 +113,4 @@ From an ethical standpoint, Facebook went from bad to worse when they went publi
 
 ![Facebook is Causing Detrimental Harm to Humanity](/assets/images/Christopher_Anderson_Research_Poster_Facebook_Harm.png)
 
-[Downloadable PDF](/assets/images/Christopher_Anderson_Research_Poster_Facebook_Harm.pdf)
+[Full-size PDF](/assets/images/Christopher_Anderson_Research_Poster_Facebook_Harm.pdf)
