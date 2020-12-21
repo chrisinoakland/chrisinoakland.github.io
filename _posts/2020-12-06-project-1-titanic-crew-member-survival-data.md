@@ -9,6 +9,8 @@ tags:
   - projects
 ---
 
+A project to explore the data of the crew members aboard _RMS Titanic_ and their survival rate.
+
 - [Project Proposal](#project-proposal)
 - [Project Check-In](#project-check-in)
 - [Project Report](#project-report)
