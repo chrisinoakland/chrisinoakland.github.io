@@ -16,6 +16,7 @@ A project to explore the data of the crew members aboard _RMS Titanic_ and their
 - [Project Check-In](#project-check-in)
 - [Project Report](#project-report)
 - [Questions and Answers](#questions-and-answers)
+- [Project Presentation](#project-presentation)
 
 ## Project Proposal
 
@@ -441,3 +442,8 @@ No, but I have seen bits of coal salvaged from the wreck site for sale from the 
 _How do you feel about salvaging artifacts from Titanic?_
 
 I am torn. On one hand I would love to see parts and artifacts of what is left of the ship in a museum, yet, it is truly a gravesite. Perhaps the best answer is articulate photography and videography and that can be good enough.
+
+## Project Presentation
+
+![Apple Keynote format](/assets/TitanicCrewMemberSurvivalData.key)
+![Microsoft PowerPoint format](/assets/TitanicCrewMemberSurvivalData.pptx)
