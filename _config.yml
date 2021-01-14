@@ -73,6 +73,9 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/chrisinoakland"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:chmanderson@my365.bellevue.edu"
       
 
 footer:
