@@ -10,7 +10,9 @@ tags:
   - player rankings
 classes: wide
 header:
-  image: /assets/images/football.jpg
+    image: /assets/images/football.jpg
+    image_description: "An American-rules football field"
+    caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 ---
 
 A project to explore the possibility of creating an accurate fantasy football player ranking system.
