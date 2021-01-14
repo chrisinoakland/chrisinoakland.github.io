@@ -9,6 +9,8 @@ tags:
   - api
   - pulling data
 classes: wide
+header:
+    image: /assets/images/twitter.jpg
 ---
 
 How to pull data from Twitter using APIs.
