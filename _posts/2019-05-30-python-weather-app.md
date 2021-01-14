@@ -7,6 +7,8 @@ tags:
   - python
   - weather app
 classes: wide
+header:
+    image: /assets/images/weather.jpg
 ---
 
 How to create a weather forecasting app using Python.
