@@ -11,7 +11,7 @@ tags:
 classes: wide
 ---
 
-How to pull data from Twitter using API's.
+How to pull data from Twitter using APIs.
 
 ### Introduction
 
