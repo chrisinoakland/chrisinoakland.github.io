@@ -9,6 +9,8 @@ tags:
   - projects
   - player rankings
 classes: wide
+header:
+  image: /assets/images/football.jpg
 ---
 
 A project to explore the possibility of creating an accurate fantasy football player ranking system.
