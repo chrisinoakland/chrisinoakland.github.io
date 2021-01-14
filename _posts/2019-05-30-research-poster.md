@@ -7,6 +7,8 @@ tags:
   - facebook
   - research poster
 classes: wide
+header:
+    image: /assets/images/fb.jpg
 ---
 
 An extended abstract and research poster about the harm that Facebook is causing humanity. 
