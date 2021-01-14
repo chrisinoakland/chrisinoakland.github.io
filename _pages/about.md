@@ -1,8 +1,6 @@
 ---
 permalink: /about/
 title: "About"
-header:
-    image: /assets/images/winter.jpg
 ---
 
 I have put on many hats in this wonderful life in the technology industry, 
