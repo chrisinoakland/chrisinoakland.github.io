@@ -7,13 +7,16 @@ tags:
   - python
   - logging and automation
 classes: wide
+
+header:
+    image: /assets/images/data.jpg
 ---
 
 How to use Python to perform logging and automation.
 
 ### Introduction
 
-This code provides a how to on using Python to automate and set up logging of 
+This code provides a how-to on using Python to automate and set up logging of Twitter data and using Twilio to send messages on the status of the process. 
 
 ```python
 # File: Exercise10_2.py
