@@ -75,7 +75,7 @@ def oauth_req(url, key, secret, http_method="GET", post_body=b"",
 url = 'https://api.twitter.com/1.1/search/tweets.json?q=%23childlabor'
 data = oauth_req(url, TOKEN_KEY, TOKEN_SECRET)
 
-with open("/Users/chris/Documents/Education/MSDS/PyCharm/dsc540/week9/data/hashchildlabor.json", "wb") as data_file:
+with open("/data/hashchildlabor.json", "wb") as data_file:
     data_file.write(data)
 
 
