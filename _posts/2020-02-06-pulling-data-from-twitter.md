@@ -10,7 +10,7 @@ tags:
   - pulling data
 classes: wide
 header:
-    image: /assets/images/twitter.jpg
+    image: /assets/images/twitter2.jpg
 ---
 
 How to pull data from Twitter using APIs.
