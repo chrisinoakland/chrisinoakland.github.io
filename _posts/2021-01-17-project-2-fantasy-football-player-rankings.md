@@ -231,3 +231,59 @@ Here’s the summary of the variables in that data:
 Let’s look at two scatter plots from the data set. The first one shows our projected kicker rankings plotted out on a grid with the variables for offensive red zone efficiency and the opponent’s red zone defense: 
 
 ![Chart 1](/assets/images/chart_1.png)
+
+Looking at this scatter plot, it’s easy to see that when a kicker’s team has a low offensive red zone efficiency and their opponent has a strong red zone defense (lower ranking), that’s a good combination for the potential for the kicker to rank highly in the projections (the KPlus score).
+
+Now I would like to present another example, this one showing the projected kicker rankings with the variables for the game’s projected point spread and over / under:
+
+![Chart 2](/assets/images/chart_2.png)
+
+Looking at the second scatter plot, it’s not as easy to discern how the over / under and point spread play into the projections for the kicker, but a few things stand out. Kickers playing in games that are expected to be close have a better chance to do better than those that are expected to be in a blowout loss. Also, kickers playing for teams that are projected to win by a large margin should fare well.
+
+Next, I’d like to take a look at the data doing some regression testing. Here’s the first chart:
+
+![Chart 3](/assets/images/chart_3.png)
+
+From that chart, we can see that the lower the ranking of a kicker’s opponent’s red zone defense is, the better chances there are for a kicker to score points via field goals. This next chart shows a regression analysis using the KPlus variable as the dependent variable, and the OffRZEff variable as the independent(explanatory) one:
+
+![Chart 4](/assets/images/chart_4.png)
+
+That chart is more visual information that we are on to something here. It looks like kickers on teams that have a low offensive red zone efficiency — they are not good at scoring touchdowns — is a great thing for a kicker, thus likely to have a higher ranking in the algorithm.
+
+### Testing the Hypothesis
+
+Okay, now it’s time to really put all of this together. Using the information from our variables, it is now time to mash them up into an algorithm to drive the model that will power our kicker ranking system. The data in this dataset that the KPlus scores is built from comes from a multitude of sources, including weekly NFL offensive and defensive rankings, kicker accuracy, and weather information from the sites listed in the Data Sources section. As you will see, the primary determinant of the kicker ranking system is the KPlus column, which is a column that I created; the values here come from a unique algorithm using the variables from the data that I described above. The higher the KPlus number, the better. Here is the projected rankings:
+
+![Chart 5](/assets/images/chart_5.png)
+
+Now let’s look at how the kickers actually performed in Week 12 of the 2018 season and see how our prediction rankings fared using similar charts as the ones used to present the projected rankings:
+
+![Chart 6](/assets/images/chart_6.png)
+
+It looks like we have a big outlier here as far as Janikowski; he wasn’t projected to do that well but he ended up tied for the league in points at the kicking position. On the other hand, the three top projected kickers did well, as two out of the three tied for the lead in points this week, while Badgley wasn’t too far behind them.
+
+### Conclusion
+
+The frustrations at the kicker position on my fantasy football roster over various years of playing is the primary reason I chose to key in on it for this project; as such, I set about finding a good way to help predict success at this position by creating an algorithm that could rank each week’s kickers based upon numerous variables pulled from numerous sets of data.
+
+While much of what happens in football can seem random, I believe that by using as much information as possible, we do have a chance at making fantasy football performance forecasting models based upon numerous variables and research.
+
+### Acknowledgements
+
+I owe credit to numerous people in the “regular” football analysis and fantasy sports world, including the writers at fantasypros.com, and in particular Mike Tagliere. His writing and podcasts have really helped me to understand some of the more important “game behind the game” types of things. Additionally, Andrew Swanson who writes at FantasyPros and individually was a primary influence with his “K Score” metric. I took what Andrew and “Tags” talk about and tried to build upon that. Last, I want to thank my family for putting up with me during fantasy football season. I know there are days I am not easy to deal with when my mind is wrapped in data and numbers!
+
+### References and Annotations:
+
+1. Lese, Jared. (2021). “2020 Season in Review: Measuring Consistency” from [https://www.fantasypros.com/2021/01/2020-season-in-review-measuring-consistency-fantasy-football/](https://www.fantasypros.com/2021/01/2020-season-in-review-measuring-consistency-fantasy-football/).
+2. NFL. (2021). “Fantasy Football” from [https://fantasy.nfl.com](https://fantasy.nfl.com).
+3. ESPN. (2021). “Leagues, Rankings, News, Picks, & More” from [https://www.espn.com/fantasy/football/](https://www.espn.com/fantasy/football/).
+4. CBS Sports. (2021). “Fantasy Football News, Stats, and Anaylsis” from [https://www.cbssports.com/fantasy/football/](https://www.cbssports.com/fantasy/football/).
+5. Yahoo Fantasy Football. (2020). “Fantasy Football 2020” from [https://football.fantasysports.yahoo.com/](https://football.fantasysports.yahoo.com/).
+6. Fantasy Football Today. (2020). “Fantasy Football Today” from [https://www.fftoday.com/](https://www.fftoday.com/).
+7. Pro Football Reference. (2020). “Pro Football Statistics and History” from [https://www.pro-football-reference.com/](https://www.pro-football-reference.com/).
+8. The Football Database. (2020). “2020 NFL Statistics” from [https://www.footballdb.com/stats/index.html](https://www.footballdb.com/stats/index.html).
+9. Pro Football Reference. (2020). “2020 NFL Opposition & Defensive Statistics” from [https://www.pro-football-reference.com/years/2020/opp.htm](https://www.pro-football-reference.com/years/2020/opp.htm).
+10. Pro Football Reference. (2020). “2020 NFL Standings & Team Stats” from [https://www.pro-football-reference.com/years/2020/](https://www.pro-football-reference.com/years/2020/).
+
+## Questions and Answers
+
