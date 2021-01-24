@@ -68,3 +68,27 @@ I am concerned that the ranking system I am attempting to generate won’t be ac
 ### Concluding Remarks
 
 My research has shown that the kicker position in fantasy football is rather unique in that starting the same kicker throughout the course of the season (as is pretty typical with a fantasy team) might not ultimately be the best strategy — nor is it always the best strategy to start a kicker that plays for a team with only a highly potent offense. I look forward to exploring more with data from previous games to find out.
+
+## Project Check-In
+
+### _Any surprises from your domain from these data?_
+
+So far there are not too many surprises from the data that I am working with. Overall, I am quite happy with the outcome of my data exploration and analysis, and I have learned quite a bit when it comes to creating a system to help take the guesswork out of something that seems so random (fantasy football players scoring points). I know that there is a lot more to do to really pinpoint the potential accuracy of the kicker ranking algorithm, and one way that I can do that is to continue get old game data and run that through my model to see how accurate things are shaping up to be.
+
+### _Is the dataset what you thought it was?_
+
+Going into this particular project, I thought there would be readily available downloadable datasets for doing the type of analysis I planned on doing for this task. And while to some extent that is true, I have found that a lot of my data work is being done manually, since I am looking at data on a weekly basis and am working to predict fantasy football kicker success every week of a fantasy football season. There’s no magic datasets out there that have all the things I’m looking into so it takes time to manually create the datasets. That said, in the future, web scraping and automation could really make all of this a lot easier.
+
+### _Have you had to adjust your approach or research questions?_
+
+Before I began this project, I very much expected the high-scoring kickers in fantasy football to all come from high-powered offenses, or teams that always win. I was way off base here. The best kickers in fantasy football are a lot of times on mediocre or even bad teams (from a won-loss perspective). A lot of my adjustments came after understanding that the best weekly kickers in fantasy football are usually from teams that aren’t good at scoring touchdowns when they get into the opponent’s red zone, and additionally, the defense the kicker is going up against is very stingy in the red zone at allowing touchdowns.
+
+### _Is your method working?_
+
+As I continue to make my way through the fantasy player, NFL statistics, and game-day stadium weather data, I look to get clarity in my search to be able to predict fantasy football player success; thus far, the methods for analyzing and creating a prediction model actually appear to be working. I have gotten a detailed look at past years’s kicking game performances and see that some of my concepts for predicting higher scoring performance appear to be holding true. There is more work to do to verify accuracy, and time will tell if the ideas that I have here will completely pan out, but I believe that they will based upon what I am seeing so far.
+
+### _What challenges are you having?_
+
+I think one of the main challenges I am having is that I did not fully understand nor appreciate just how much time this would take, and to expand on that just a bit, I didn’t comprehend the complexities of building accurate data models. That applies to not just for this project, but also to data science as a whole. I very much understand now how the entire data cycle flow is time-consuming, and I understand just how engrossing it is to ensure that your data is accurate and not biased, especially when you are passionate about the outcome.
+
+## Project Report
