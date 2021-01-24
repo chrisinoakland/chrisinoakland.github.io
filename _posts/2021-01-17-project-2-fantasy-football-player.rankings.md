@@ -131,4 +131,83 @@ The kicker is the player that attempts to score his team points via field goals 
 
 > “A game-winning field goal attempt in which the football hits one of the uprights —producing a loud DOINK sound — that then falls down onto the crossbar (making another loud DOINK sound) and finally, takes an un-fortuitous bounce off of said crossbar backwards into the end zone resulting in a miss and therefore no points.”
 
+I will not delve more into that particular situation and its outcome; however, I will state that Mr. Parkey was released quickly after that miss concluded the Bears’ 2018 NFL season. But don’t think that his dismissal was an over-reaction to that one failed kick. Unfortunately (for me as a fan), the Bears didn’t release him because he missed just that one (hugely important!) kick at the most important point of their spectacularly winning season. Oh no. Parkey had plenty of other misses in 2018: out of 30 attempts that season, he made only 23 of them for an abysmal (by kicking standards) 76.7% accuracy rate. When you make your living making kicks in the NFL, that simply doesn’t cut it. As a human being, I feel for the guy. It’s hard to be perfect. But as a football fan of the Chicago Bears, I say good riddance.
 
+I use that heart-wrenching narrative as a setup to this: the kicking position is extremely important. For real NFL teams, a good, reliable kicker with a solid, accurate leg is the thing that can give your team that ticker tape parade in February that all fans dream of. 
+
+Greg “The Leg” Zeurlein kicked his Los Angeles Rams (a team the Bears soundly defeated in 2018) into the Super Bowl. Yes, sure, a little non-called pass interference might have had something to do with it, but the important thing is that the guy nailed some huge kicks (on the road in New Orleans) to get the NFC Championship game into overtime and eventually to win it.
+
+The same goes for your fantasy team. You have to get this position right. All things being equal across the other positions, I feel having the top kicker — or kickers if you play in a league where you have two — each week on your roster is a very easy way to help you beat your opponent using almost the same “hidden yards” concept of the return game. Getting high scores from your kicker(s) on your fantasy team is like getting “hidden points”. Oh, and if your kicker outscores one of your opponents’ skill position players, that is just outright comical, and you sir or madam should be given bonus points.
+
+### Methods and Technical Approach
+
+Based upon research and EDA from asking the question “what are the biggest contributions to kicking attempts in a game?” I am hypothesizing that the best kickers to start on a given week — the ones who will score the most fantasy points — will most likely come from a combination of the following variables:
+
+* A kicker with a high rate of accuracy
+* A kicker’s offense with a high ranking in offensive efficiency
+* A kicker’s offense with a low ranking in red zone efficiency
+* A kicker facing a defense that has a high ranking in red zone efficiency
+* A kicker’s team is a heavy favorite
+* A kicker’s team is not a heavy underdog
+* A kicker competing in a game that is expected to be close
+* The weather will not have a detrimental impact on the kicking game
+
+### Data Sources
+
+My data sources consist of a mixture of the following:
+
+* NFL statistics and/or data sets from Pro Football Focus
+* Fantasy football statistics, content, and data sets from FantasyPros
+* Forecasted weather data for NFL stadiums from various sites; in particular hyper-local weather data such as available via Dark Sky.
+
+### Analysis
+
+My model will rank kickers before the week’s games on a week-by-week basis, and can be adjusted as needed. For example, the weight that one of the variables has in determining the final ranking might show over time that it is either too high or too low. How much impact does bad weather have? Is kicking in rain harder than kicking in wind? What about snow? Does it matter if its a dry powdery snow or a wet, heavy snow? Analysis will help drive the answers to these questions and the kicker ranking algorithm.
+
+### Variables
+
+To try to accurately predict how kickers in the NFL will perform during a week’s games, I will attempt to create a model that uses the variables talked about previously in the Technical Approach section. Let’s dig into these variables briefly.
+
+It’s important to understand why these eight items stand out, as they are the variables that will make up the kicker ranking algorithm. I will do this as succinctly as possible: You want to start a kicker with a high rate of accuracy, plays for a team with a highly efficient offense, and one that is less prone to score touchdowns once they get into their opponent’s red zone. Additionally, the algorithm will call for the kicker’s opposing defense to be really good at preventing touchdowns in the red zone, the kicker’s team to not be a heavy underdog, and the kicker’s team expecting to either win big or be in a close game. Finally, the weather needs to not be a reason why the kicking game would be impacted in a detrimental reason.
+
+My research has shown that the kicker position in fantasy football is rather unique in that starting the same kicker throughout the course of the season (as is pretty typical with a fantasy team) might not ultimately be the best strategy — nor is it always the best strategy to start a kicker that plays for a team with only a highly potent offense.
+ 
+The best kickers to start each week can be determined from the output of a certain set of criteria; as a season progresses, the outputs from these criteria can and will change — for example, think of a kicker’s accuracy as a season progresses, some kickers get better over time, others might trend downhill. It’s common in the NFL for a kicker to start a season off strong, but start to lose confidence with a few misses. Last season, one of the NFL’s best kickers of all time, Adam Vinatieri, almost quit the Colts one day after a handful of missed kicks early on in the season.
+
+### Looking into the Data
+
+To take a swing at my kicker ranking concept, I took a random week from the latter portion of the 2018 NFL season to work with, primarily because I wanted to have a culmination of previous game weeks’ data to work with. First, let’s load in our NFL Week 12 kicker ranking dataset and get a quick summary and look at the data:
+
+```html
+2018_w_12_k_data
+##                    Name Accuracy Team Opponent Spread OU OppRZD OffRZEff OffRank       Weather            KPlus
+## 1       Michael Badgley    100.0  LAC  vs. ARI  -13.0 44     12       13    7     73F, Light Wind          68
+## 2      Ka’imi Fairbairn     81.5  HOU  vs. TEN   -6.5 41      2        3   13            Dome              67
+## 3         Aldrick Rosas     95.2  NYG   at PHI    7.0 46      7        6   23     55F, 7 MPH Wind          61
+## 4         Jason Sanders     93.8  MIA   at IND   10.0 51      9        0   28            Dome              59
+## 5          Cairo Santos     83.3   TB   vs. SF   -3.0 54     16       15    1     80F, 7 MPH Wind          57
+## 6          Mason Crosby     76.9   GB   at MIN    4.0 48      1       18    8            Dome              56
+## 7       Brandon McManus     82.4  DEN  vs. PIT    3.0 48     13       10   11     45F, 8 MPH Wind          54
+## 8            Dan Bailey     82.4  MIN   vs. GB   -4.0 48     11        9   14            Dome              54
+## 9    Stephen Gostkowski     86.4   NE   at NYJ   -9.0 47      8       22   10     55F, 7 MPH Wind          52
+## 10        Justin Tucker     90.5  BAL  vs. OAK  -12.0 43     10       21   12     55F, Light Wind          52
+## 11       Dustin Hopkins     85.0  WAS   at DAL    9.0 41      3       12   25            Dome              51
+## 12          Brett Maher     84.0  DAL  vs. WAS   -9.0 41      5        8   27            Dome              50
+## 13         Jake Elliott     77.8  PHI  vs. NYG   -7.0 46      6       11   19     55F, 7 MPH Wind          50
+## 14           Josh Lambo     94.4  JAC   at BUF   -3.0 38     25        5   21     41F, Light Wind          46
+## 15          Jason Myers     91.3  NYJ   vs. NE    9.0 47     20        1   29     55F, 7 MPH Wind          46
+## 16         Robbie Gould     95.5   SF    at TB    3.0 54     32        4   17     80F, 7 MPH Wind          45
+## 17       Adam Vinatieri     83.3  IND  vs. MIA  -10.0 51     15       24    9            Dome              43
+## 18          Matt Bryant    100.0  ATL    at NO   14.0 60     28       23    6            Dome              43
+## 19          Matt Prater     86.4  DET  vs. CHI    3.0 45     21        7   24            Dome              41
+## 20             Wil Lutz     95.5   NO  vs. ATL  -14.0 60     29       28    4            Dome              37
+## 21          Cody Parkey     76.2  CHI   at DET   -3.0 45     17       20   16            Dome              36
+## 22      Steven Hauschka     93.8  BUF  vs. JAC    3.0 38     14       17   31     41F, Light Wind          36
+## 23          Graham Gano     91.7  CAR  vs. SEA   -3.0 47     18       29   15     53F, Light Wind          35
+## 24       Daniel Carlson     63.6  OAK   at BAL   12.0 43     22        2   22     55F, Light Wind          34
+## 25          Greg Joseph     84.6  CLE   at CIN    3.0 48     23       19   18     53F, 6 MPH Wind          34
+## 26        Chris Boswell     72.7  PIT   at DEN   -3.5 48     19       30    5     45F, 8 MPH Wind          33
+## 27          Ryan Succop     85.7  TEN   at HOU    6.5 41     30       14   30            Dome              22
+## 28 Sebastian Janikowski     75.0  SEA   at CAR    3.0 47     31       25   20     53F, Light Wind          18
+## 29        Randy Bullock     75.0  CIN  vs. CLE   -3.0 48     24       31   26     53F, 6 MPH Wind          14
+```
