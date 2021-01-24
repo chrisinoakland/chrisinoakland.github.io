@@ -211,3 +211,23 @@ To take a swing at my kicker ranking concept, I took a random week from the latt
 ## 28 Sebastian Janikowski     75.0  SEA   at CAR    3.0 47     31       25   20     53F, Light Wind          18
 ## 29        Randy Bullock     75.0  CIN  vs. CLE   -3.0 48     24       31   26     53F, 6 MPH Wind          14
 ```
+
+Here’s the summary of the variables in that data: 
+
+* ```Name```: The kicker.
+* ```Accuracy```: The kicker’s rate of accuracy on the season so far.
+* ```Team```: The kicker’s team.
+* ```Opponent```: The team the kicker is facing this week.
+* ```Spread```: The expected/predicted point spread of the game as determined by oddsmakers. A negative number means the kicker’s team is favored. For example a -7 means the kicker’s team is predicted to win by 7 points.
+* ```OU```: The predicted over/under of this game as determined by oddsmakers. This is the expected total combined score of the two teams. A game with a high OU is expected to be a high scoring game, a low OU means lower scoring.
+* ```OppRZD```: The ranking of the kicker’s opponent’s red zone defense. A low number here means that the defense is good at preventing touchdowns when their opponent reaches the red zone (20 yards from the goal line).
+* ```OffRZEff```: The kicker’s team’s red zone efficiency. A low number here mans that the kicker’s team has a hard time scoring touchdown when they get into the red zone and are more likely to have to kick field goals.
+* ```OffRank```: The kicker’s team’s offensive efficiency. A low number here means that the kicker’s offense is good at moving the ball down the field. This is good because a team that moves the ball is more likely to score points. 
+* ```Weather```: This is the predicted weather data for the game. If it’s raining heavily or snowing or windy, this will impact the kicking game.
+* ```KPlus```: This is the output of my algorithm that takes into account the other variables in the data set. The higher the number here, the better — this drives the ranking order. 
+
+### Charts and Plots
+
+Let’s look at two scatter plots from the data set. The first one shows our projected kicker rankings plotted out on a grid with the variables for offensive red zone efficiency and the opponent’s red zone defense: 
+
+![Chart 1](/assets/images/chart_1.png)
