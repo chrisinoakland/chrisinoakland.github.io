@@ -178,7 +178,7 @@ The best kickers to start each week can be determined from the output of a certa
 
 To take a swing at my kicker ranking concept, I took a random week from the latter portion of the 2018 NFL season to work with, primarily because I wanted to have a culmination of previous game weeks’ data to work with. First, let’s load in our NFL Week 12 kicker ranking dataset and get a quick summary and look at the data:
 
-```html
+```python
 2018_w_12_k_data
 ##                    Name Accuracy Team Opponent Spread OU OppRZD OffRZEff OffRank       Weather            KPlus
 ## 1       Michael Badgley    100.0  LAC  vs. ARI  -13.0 44     12       13    7     73F, Light Wind          68
