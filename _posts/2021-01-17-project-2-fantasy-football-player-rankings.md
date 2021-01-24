@@ -244,7 +244,9 @@ Next, I’d like to take a look at the data doing some regression testing. Here�
 
 ![Chart 3](/assets/images/chart_3.png)
 
-From that chart, we can see that the lower the ranking of a kicker’s opponent’s red zone defense is, the better chances there are for a kicker to score points via field goals. This next chart shows a regression analysis using the KPlus variable as the dependent variable, and the OffRZEff variable as the independent(explanatory) one:
+From that chart, we can see that the lower the ranking of a kicker’s opponent’s red zone defense is, the better chances there are for a kicker to score points via field goals.
+
+This next chart shows a regression analysis using the KPlus variable as the dependent variable, and the OffRZEff variable as the independent(explanatory) one:
 
 ![Chart 4](/assets/images/chart_4.png)
 
