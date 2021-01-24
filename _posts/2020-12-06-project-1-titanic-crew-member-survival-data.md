@@ -423,7 +423,7 @@ Surprisingly, yes I did get all of the answers to the questions I had asked upon
 
 _What would you have liked to have gone better?_
 
-I with that there was more time to get the project done. These are pretty tight deadlines, but that’s okay.
+I wish that there was more time to get the project done. These are pretty tight deadlines, but that’s okay.
 
 _What did you think of James Cameron’s movie, Titanic?_
 
