@@ -1,6 +1,6 @@
 ---
 title: "Project 2: Fantasy Football Player Rankings"
-date: 2021-01-17T14:30:00-04:00
+date: 2021-01-24T14:30:00-04:00
 categories:
   - blog
 tags:
