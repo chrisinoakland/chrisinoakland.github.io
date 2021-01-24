@@ -92,3 +92,29 @@ As I continue to make my way through the fantasy player, NFL statistics, and gam
 I think one of the main challenges I am having is that I did not fully understand nor appreciate just how much time this would take, and to expand on that just a bit, I didn’t comprehend the complexities of building accurate data models. That applies to not just for this project, but also to data science as a whole. I very much understand now how the entire data cycle flow is time-consuming, and I understand just how engrossing it is to ensure that your data is accurate and not biased, especially when you are passionate about the outcome.
 
 ## Project Report
+
+### Executive Summary
+
+Having success at fantasy football takes more than just luck or drafting the right players. Sure, those things help, but nearly every weekend, matchups are won or lost based upon individual performances that are either way above projections, or far below. What if I told you that you that those crazy highs and lows might actually be predictable?
+
+Wanting to take the luck and randomness out of how my fantasy teams would perform each week, I had the idea to take a more analytical approach by creating a player ranking system for each position on the roster. This ranking would update each week, based upon a number of variables including offensive and defensive rankings, individual performance rankings and accuracy, and even weather data. My first stab at building an algorithm to spit out a player ranking system started with the kickers, and preliminary research has shown that a model to help predict who will score big — and who might tank — might actually give you a huge leg up to winning your league.
+
+### Abstract
+
+The simplistic beauty of fantasy football is that it is a wonderful and true microcosm of the real game — well, at least the non-physical parts. Luckily, you don’t have to go through training camp or be in elite physical shape to play the game. Instead, you fulfill nearly every other non-athletic role that real NFL teams have: owner, general manager, scout, statistics department, head trainer, team doctor, and of course, the head coach. During the duration of the fantasy football season, those of us who play in a league — or multiple leagues — are faced with a multitude of decisions. After you draft your team, each week you are tasked with choosing the best players at each position you feel will win you your matchup against your opponent. This sounds simple, right? The choice of who to start vs. who to leave sitting on your bench may seem like something that is just left up to luck or chance, or done by random choice. You drafted two great quarterbacks, you can just flip a coin as to who to start that weekend, right? Wrong.
+
+### Introduction and Background
+
+It goes without saying that there are a lot of random things that happen during the course of an NFL football game that contribute to the game’s final outcome and individual player performance and statistics. But there are a multitude of variables that come into play even before opening kickoff that can provide you with information to help you make your decisions.
+
+### Problem Statement
+
+The problem that I will be addressing aims to take the randomness and guesswork out of weekly fantasy football matchups by creating a player ranking system. The rankings are driven by a unique algorithm for each of the following positions that comprise a typical fantasy football roster:
+
+* Quarterback (QB) 
+* Running Back (RB)
+* Wide Receiver (WR)
+* Tight End (TE)
+* Kicker (K)
+* Defense and Special Teams (DST)
+* Defensive Player (D) 
