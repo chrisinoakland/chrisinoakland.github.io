@@ -118,3 +118,17 @@ The problem that I will be addressing aims to take the randomness and guesswork 
 * Kicker (K)
 * Defense and Special Teams (DST)
 * Defensive Player (D) 
+
+_Note: for purposes of this project, I am only going to summarize one position on the fantasy football roster, that being the kicker. While each of the other positions will have their own separate ranking system, the algorithm for each position will share some common elements. However, due to the interest of time and scope, I will only discuss the kicker position and lay out the model used for this particular position._
+
+### Detailed Background
+
+The life of the special teams group in the game of American football is — to me — one of the most underrated parts of the game. For here we have the hidden yards including both kickoff and punt return yardage. These return yards aren’t shown in statistics for offense, but a great return game is just as important as any weapon on the offensive side of the ball. For example, a great punt and/or kick returner can set your offense up for a short touchdown drive, or in some cases of the outliers — the great return men of the game — swing momentum singlehandedly by scoring touchdowns. These hidden yards score points for a fantasy football owner under the DST position (Defense and Special Teams). But that is not the focus of this particular project.
+
+The other primary pieces of special teams units are the guys with the golden legs: the kickers and punters. Actually, there are a few other huge components of this group, those being the holder and the long snapper, but they aren’t accounted for in fantasy football even though their jobs are a monumental part of special teams. I digress... To try to keep this brief, the punter kicks the ball away to the other team if the offensive unit stalls and is not within field goal range, and is also not accounted for in fantasy football — another travesty if you ask me. That leaves us with the kicker. Ahh yes, the kicker.
+
+The kicker is the player that attempts to score his team points via field goals and PATs (points after touchdown). Most simply, they are most often either one of two things: a hero or a villain; the determination of which is usually upon the outcome of a single, last second, potentially game-winning kick, or a culmination of that game’s kicks. Make a game-winning kick as time expires? Hero! Miss 3 out of 5 and cost your team that day’s victory? Ugh, pack your bags you might not be long for this team. And trust me, I would know. As a Chicago Bears fan, I watched the team’s kicker double-doink us out of advancing in the Playoffs during the 2018 season. Double-doink? Oh, that’s a new phrase invented specifically for kicker Cody Parkey and it can be defined as such:
+
+> “A game-winning field goal attempt in which the football hits one of the uprights —producing a loud DOINK sound — that then falls down onto the crossbar (making another loud DOINK sound) and finally, takes an un-fortuitous bounce off of said crossbar backwards into the end zone resulting in a miss and therefore no points.”
+
+
