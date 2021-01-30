@@ -289,3 +289,42 @@ I owe credit to numerous people in the “regular” football analysis and fanta
 
 ## Questions and Answers
 
+_Why did you choose this as a project subject?_
+
+I’ve been a fantasy football enthusiast for over a decade, and while there’s not much hope for my real football team (the Chicago Bears) until they get a franchise quarterback, it’s fun to enjoy the play of other players in the NFL by having them on my team(s). I’ve noticed that I enjoy watching the NFL more in general since becoming a fantasy football player.
+
+_Did anything during this project surprise you? In what way?_
+
+I was a bit surprised at how much sense it made when researching the best way to work on the kicker algorithm. It seemed like it was too good to be true. It’s not perfect, but it’s a good start.
+
+_Is there anything that you would have done differently?_
+
+I think eventually that I would like to work with someone on this project and see if we can really make some progress on a true roster-wide, weekly updated ranking for each player position.
+
+_Did you get all of the answers to your research questions?_
+
+I was able to get all of the answers to my research questions, and believe that there is a way to create an accurate prediction for the kicker position each week.
+
+_What would you have liked to have gone better?_
+
+Creating a weekly updated ranking algorithm for all fantasy football positions would be like a secret weapon, but it was beyond the scope of this project.
+
+_How do you feel about the role of analytics in sports?_
+
+I love the fact that analytics are becoming such a big factor in all of sports. It’s really fun for me to see the intersection of science and data with athletics.
+
+_What good (if any) came as a result of this project?_
+
+I believe that this project is a great start on the beginning of something that can become a viable fantasy football prediction system, and possibly something to continue exploring and working on.
+
+_Are there any other research questions you would like to try to find answers for?_
+
+I wish that I could find the answer as to why the Chicago Bears are so terrible at attaining a franchise quarterback. They are the oldest team in the NFL, and the fact that they have never had a quarterback other than Sid Luckman in the 1940s to consistently lead the team is both pathetic and heartbreaking at the same time. The fact that my team’s arch rival has had best-in-the-league QB play for nearly thirty years straight from just two different players is maddening.
+
+_Do you play in any of the daily fantasy sites or do any sports betting?_
+
+I don’t partake in any of the daily fantasy football stuff, or do any sports betting. It’s just not my cup of tea. I prefer my betting to take place in the stock market.
+
+_Is this project something you would like to continue working on?_
+
+I would most definitely like to continue working on the fantasy football player ranking system; having something that updates weekly prior to each week’s slate of games during the season would be a wonderful tool to help win.
