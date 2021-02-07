@@ -328,3 +328,9 @@ I don’t partake in any of the daily fantasy football stuff, or do any sports b
 _Is this project something you would like to continue working on?_
 
 I would most definitely like to continue working on the fantasy football player ranking system; having something that updates weekly prior to each week’s slate of games during the season would be a wonderful tool to help win.
+
+## Project Presentation
+
+[Apple Keynote format](/assets/Fantasy_Football_Player_Rankings.key)
+
+[Microsoft PowerPoint format](/assets/Fantasy_Football_Player_Rankings.pptx)
