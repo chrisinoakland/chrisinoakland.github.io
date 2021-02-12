@@ -29,18 +29,6 @@ _What domain is this data going to come from? Please list 10 references (with a 
 
 Fantasy football has been a passion of mine for over ten years. While a lot of what happens each weeks seems to be chance or luck or just completely random, I’ve been working on creating a way to more accurately predict player performance — and thereby the chances of fantasy football scoring success and winning your fantasy league — by generating a ranking algorithm for players on a weekly basis, starting with the position of kicker.
 
-#### References and Annotations:
-1. Lese, Jared. (2021). “2020 Season in Review: Measuring Consistency” from [https://www.fantasypros.com/2021/01/2020-season-in-review-measuring-consistency-fantasy-football/](https://www.fantasypros.com/2021/01/2020-season-in-review-measuring-consistency-fantasy-football/).
-2. NFL. (2021). “Fantasy Football” from [https://fantasy.nfl.com](https://fantasy.nfl.com).
-3. ESPN. (2021). “Leagues, Rankings, News, Picks, & More” from [https://www.espn.com/fantasy/football/](https://www.espn.com/fantasy/football/)
-4. CBS Sports. (2021). “Fantasy Football News, Stats, and Anaylsis” from [https://www.cbssports.com/fantasy/football/](https://www.cbssports.com/fantasy/football/).
-5. Yahoo Fantasy Football. (2020). “Fantasy Football 2020” from [https://football.fantasysports.yahoo.com/](https://football.fantasysports.yahoo.com/).
-6. Fantasy Football Today. (2020). “Fantasy Football Today” from [https://www.fftoday.com/](https://www.fftoday.com/).
-7. Pro Football Reference. (2020). “Pro Football Statistics and History” from [https://www.pro-football-reference.com/](https://www.pro-football-reference.com/).
-8. The Football Database. (2020). “2020 NFL Statistics” from [https://www.footballdb.com/stats/index.html](https://www.footballdb.com/stats/index.html).
-9. Pro Football Reference. (2020). “2020 NFL Opposition & Defensive Statistics” from [https://www.pro-football-reference.com/years/2020/opp.htm](https://www.pro-football-reference.com/years/2020/opp.htm).
-10. Pro Football Reference. (2020). “2020 NFL Standings & Team Stats” from [https://www.pro-football-reference.com/years/2020/](https://www.pro-football-reference.com/years/2020/).
-
 ### Which Data?
 
 _What is the dataset you’ll be examining? Please provide a codebook if there is one or a link to the dataset as well as a detailed description._

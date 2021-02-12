@@ -28,24 +28,11 @@ _What domain is this data going to come from? Please list 10 references (with a 
 
 The sinking of the Titanic is a heart-breaking tale, and while much of the tragedy focuses on the passengers of the ship, I feel the workers have a story that goes untold. My first project will be an analysis of the crew members employed by the White Star Line that were aboard the fateful voyage.
 
-#### References and Annotations:
-1. Harrell, Frank E. (2002, December 27). "Titanic Data” from [http://biostat.mc.vanderbilt.edu/wiki/pub/Main/DataSets/titanic.html](http://biostat.mc.vanderbilt.edu/wiki/pub/Main/DataSets/titanic.html)
-2. Zuckerman, Arthur. (2020, May 24). “57 Titanic Statistics: Deaths, Passengers & Survivors” from [https://comparecamp.com/titanic-statistics/](https://comparecamp.com/titanic-statistics/)
-3. Encyclopedia Titanica. (2020). “Titanic Crew Survivors” from [https://www.encyclopedia-titanica.org/titanic-crew-survivors/](https://www.encyclopedia-titanica.org/titanic-crew-survivors/)
-4. Ultimate Titanic. (2012, April). “Titanic: By the Numbers” from [https://www.ultimatetitanic.com/facts-statistics/](https://www.ultimatetitanic.com/facts-statistics/)
-5. Encyclopedia Britannica. (2020). “Titanic” from [https://www.britannica.com/ topic/Titanic](https://www.britannica.com/ topic/Titanic)
-6. Titanic Database. (2012, April). “List of crew members on board RMS Titanic” from [https://titanicdatabase.fandom.com/wiki/Crew_of_the_RMS_Titanic](https://titanicdatabase.fandom.com/wiki/Crew_of_the_RMS_Titanic)
-7. History on the Net. (2020). “The Titanic — Crew” from [https://www.historyonthenet.com/the-titanic-crew](https://www.historyonthenet.com/the-titanic-crew)
-8. Lehnhardt, Karin. (2019, July 3). “45 Unsinkable Titanic Facts” from [https://www.factretriever.com/titanic-facts](https://www.factretriever.com/titanic-facts)
-9. RMS Titanic - Ship of Dreams. (2014). “Designing & Building Titanic” from [http://www.titanicandco.com/construction.html](http://www.titanicandco.com/construction.html)
-10. History. (2020, October 30). “Titanic by the Numbers: From Construction to Disaster to Discovery” from [https://www.history.com/news/titanic-facts- construction-passengers-sinking-discovery](https://www.history.com/news/titanic-facts- construction-passengers-sinking-discovery)
-
 ### Which Data?
 
 _What is the dataset you’ll be examining? Please provide a codebook if there is one or a link to the dataset as well as a detailed description._
 
-For information specifically on Titanic’s crew, I will be using data from the Titanic People Database as created by Encyclopedia Titanica. More information can be found at [https://www.encyclopedia-titanica.org](https://www.encyclopedia-titanica.org). The site has an online and downloadable listing of records of passengers and crew, survivors, etc. I’m a bit of a Titanic junkie, so I already had a subscription to this site which allows for more granular downloading of data in csv format. Another source of data is Kaggle: [https://www.kaggle.com/c/titanic/data](https://www.kaggle.com/c/titanic/data).
-             2
+For information specifically on Titanic’s crew, I will be using data from the Titanic People Database as created by Encyclopedia Titanica. More information can be found at [https://www.encyclopedia-titanica.org](https://www.encyclopedia-titanica.org). The site has an online and downloadable listing of records of passengers and crew, survivors, etc. I’m a bit of a Titanic junkie, so I already had a subscription to this site which allows for more granular downloading of data in csv format. Another source of data is Kaggle: [https://www.kaggle.com/c/titanic/data](https://www.kaggle.com/c/titanic/data). 2
 
 These are a few of the variables that I will be exploring:
 
