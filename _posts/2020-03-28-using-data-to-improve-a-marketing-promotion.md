@@ -5,6 +5,7 @@ categories:
   - blog
 tags:
   - R
+  - python  
   - marketing
   - promotion
 classes: wide
@@ -23,7 +24,7 @@ This is an exploration of improving the attendance of a Major League Baseball ga
 
 Let's import the data, shall we?
 
-```{r load, echo=TRUE, collapse=TRUE, results=FALSE}
+```r
 # Load the readr package:
 library(readr)
 
@@ -35,7 +36,7 @@ baseball <- read.csv("dodgers.csv", stringsAsFactors = FALSE)
 
 Now let's take a quick look using the `summary` and `str` commands to make sure our import worked as expected and we're seeing the data we expect:
 
-```{r summary, echo=TRUE, collapse=TRUE}
+```{r
 # Show a summary to get an understanding of the results:
 
 summary(baseball)
@@ -48,7 +49,7 @@ It looks like our data has twelve different variables, with the last four `cap`,
 
 Now let's create a few variables from this data set:
 
-```{r variableNames, echo=TRUE, collapse=TRUE}
+```{r
 # First let's get a look at the names of our different columns of data that will become the variables:
 
 for (i in 1:length(baseball)) {
@@ -61,7 +62,7 @@ print(column)
 
 Everybody loves free stuff. Let's create variables for the promotional items, showing only the data for days when there was a promotional event:
 
-```{r promoVariables, echo=TRUE, collapse=TRUE}
+```{r
 promoCap <- subset(baseball, baseball$cap == "YES")
 promoShirt <- subset(baseball, baseball$shirt == "YES")
 promoFireworks <- subset(baseball, baseball$fireworks == "YES")
@@ -70,7 +71,7 @@ promoBobblehead <- subset(baseball, baseball$bobblehead == "YES")
 
 Now let's get a look at the output of the promotional variables:
 
-```{r promoResults, echo=TRUE, collapse=TRUE}
+```{r
 promoCap
 
 promoShirt
@@ -82,7 +83,7 @@ promoBobblehead
 
 Now let's get a look at the `summary` of the promotional variables:
 
-```{r promoSummary, echo=TRUE, collapse=TRUE}
+```{r
 summary(promoCap)
 
 summary(promoShirt)
@@ -113,7 +114,7 @@ But look at the bobbleheads. There were a total of eleven games when the Dodgers
 
 Now let's create a few box plots to get a look at our data. We'll start with one that looks at attendance on the days of the week:
 
-```{r boxPlot1, echo=TRUE, collapse=TRUE}
+```{r
 # Boxplot of day of the week attendance:
 
 boxplot(attend~day_of_week,data=baseball, main="Day of the Week Attendance", 
@@ -122,7 +123,7 @@ boxplot(attend~day_of_week,data=baseball, main="Day of the Week Attendance",
 
 That's a bit messy so let's order the days like a regular weekly calendar rather than using the default alphabetical order. Let's also give the boxplot's color something more applicable to our example, the use of `dodgerblue`:[^1]
 
-```{r boxPlotClean, echo=TRUE, collapse=TRUE}
+```{r
 baseball$day_of_week <- factor(baseball$day_of_week , levels=c("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"))
 
 # Boxplot of day of the week attendance:
@@ -139,7 +140,7 @@ Higher attendance on a Friday, Saturday, or Sunday makes sense.
 
 What's up with Tuesdays? Pulling in an average of 50,000 people on a Tuesday seems rather remarkable. Let's keep pulling this thread. Let's go in for a deeper dive on trying to see what drove that Tuesday attendance.
 
-```{r tuesdays, echo=TRUE, collapse=TRUE}
+```{r
 tuesday <- subset(baseball, baseball$day_of_week == "Tuesday")
 print(tuesday)
 summary(tuesday)
@@ -153,7 +154,7 @@ Just like in our Exploration of Promotions area earlier, we see that promotions 
 
 Now let's isolate Mondays and see if we can tell why the draw on that day is so low:
 
-```{r mondays, echo=TRUE, collapse=TRUE}
+```{r
 monday <- subset(baseball, baseball$day_of_week == "Monday")
 print(monday)
 summary(monday)
@@ -165,7 +166,7 @@ With a mean attendance of 34,966, Mondays were the lowest attendance draw at Dod
 
 Now let's create a few scatter plots to get a look at our data. We'll start with one that looks at attendance and the game time temperature to see if there's any correlation there:
 
-```{python scatterPlot1, echo=TRUE, collapse=TRUE}
+```{python
 # Scatter plot of attendance and weather:
 import pandas as pd
 import numpy as np
@@ -183,19 +184,18 @@ plt.ylabel("Game Temperature")
 plt.show()
 ```
 
-
 ### Linear Regression Model
 
 I'd like to do linear regression analysis using game attendance and game time temperature to see if there is any impact. 
 
-```{r regression, echo=TRUE, collapse=TRUE}
+```{r
 # Run our linear regression model:
 
 simple.fit = lm(attend~temp, data=baseball)
 summary(simple.fit)
 ```
 
-A cursory glance at the regresion output:
+A cursory glance at the regression output:
 
 * Residuals: The section summarizes the residuals, the error between the prediction of the model and the actual results.  Smaller residuals are better.
 * Coefficients: For each variable and the intercept, a weight is produced and that weight has other attributes like the standard error, a t-test value and significance.
@@ -207,7 +207,7 @@ Based upon a quick look at things here, the game time temperature doesn't really
 
 Let's do some train/test splits on our data, again I will isolate weather:
 
-```{python train, echo=TRUE, collapse=TRUE}
+```{python
 import pandas as pd
 from sklearn import linear_model
 from sklearn.model_selection import train_test_split
@@ -236,7 +236,8 @@ print(X_test.shape, y_test.shape)
 ```
 
 Now we’ll fit the model on the training data:
-```{python train2, echo=TRUE, collapse=TRUE}
+
+```{python
 # fit a model
 lm = linear_model.LinearRegression()
 model = lm.fit(X_train, y_train)
@@ -246,7 +247,7 @@ print(predictions)
 
 Now let's plot that training model:
 
-```{python trainPlot, echo=TRUE, collapse=TRUE}
+```{python
 ## The line / model
 plt.scatter(y_test, predictions)
 plt.xlabel("True Values")
@@ -255,7 +256,7 @@ plt.ylabel("Predictions")
 
 And our accuracy score:
 
-```{python trainScore, echo=TRUE, collapse=TRUE}
+```{python
 print("Score:", model.score(X_test, y_test))
 ```
 
