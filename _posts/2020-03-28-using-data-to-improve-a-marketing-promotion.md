@@ -8,17 +8,16 @@ tags:
   - marketing
   - promotion
 classes: wide
+    
 header:
-    image: /assets/images/weather.jpg
+    image: /assets/images/baseball.jpg
 ---
 
 Using Data to Improve a Marketing Promotion.
 
 ### Introduction
 
-```{r setup, include=FALSE}
-library(reticulate)
-```
+This is an exploration of improving the attendance of a Major League Baseball game by using data science.
 
 ### Import Data
 
