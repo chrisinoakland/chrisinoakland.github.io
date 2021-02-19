@@ -14,7 +14,7 @@ header:
     image: /assets/images/baseball.jpg
 ---
 
-Using Data to Improve a Marketing Promotion.
+An exercise of using data to improve a marketing promotion in Major League Baseball.
 
 ### Introduction
 
