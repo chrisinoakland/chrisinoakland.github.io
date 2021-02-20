@@ -11,7 +11,7 @@ header:
     image: /assets/images/scrape.jpg
 ---
 
-An exercise in Scraping aand reading web pages using Python.
+An exercise in scraping aand reading web pages using Python.
 
 ### Introduction
 
