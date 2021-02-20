@@ -20,15 +20,6 @@ How to pull data from Twitter using APIs.
 In this exercise, you will create a twitter account (if you don’t already have one, or don’t wish to use your personal account) and practice pulling data from Twitter’s publicly available API.
 
 ```python
-
-# File: Exercise9_2.py
-# Name: Christopher M. Anderson
-# Date: 02/06/2020
-# Course: DSC540 Data Preparation
-# Week: 9
-# Assignment Exercise: 9.2: Pulling Data from APIs
-
-
 import oauth2
 import tweepy
 import dataset
