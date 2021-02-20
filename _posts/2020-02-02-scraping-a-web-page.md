@@ -11,7 +11,7 @@ header:
     image: /assets/images/scrape.jpg
 ---
 
-Scraping a web page.
+Scraping a web page using Python.
 
 ### Introduction
 
