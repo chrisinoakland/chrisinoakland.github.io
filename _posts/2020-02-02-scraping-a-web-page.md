@@ -1,5 +1,5 @@
 ---
-title: "Scraping a Web Page"
+title: "Scraping a Web Page using Python"
 date: 2020-02-02T16:15:38-04:00
 categories:
   - blog
