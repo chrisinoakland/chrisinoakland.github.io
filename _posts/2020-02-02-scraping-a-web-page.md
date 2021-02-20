@@ -8,7 +8,7 @@ tags:
   - web scraping
 classes: wide
 header:
-    image: /assets/images/weather.jpg
+    image: /assets/images/scrape.jpg
 ---
 
 Scraping a web page.
