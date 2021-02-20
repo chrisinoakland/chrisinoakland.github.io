@@ -18,7 +18,7 @@ An exercise of using R and Python to improve a marketing promotion in Major Leag
 
 ### Introduction
 
-This is an exploration of improving the attendance of a Major League Baseball game by using data science. Using Major League Baseball fan attendance data from 2012, use R and Python to determine what night would be the best to run a marketing promotion to increase attendance.
+This is an exploration of improving the attendance of a Major League Baseball game by using data science. Using Major League Baseball fan attendance data from 2012, R and Python will be used to determine what night would be the best to run a marketing promotion to increase attendance.
 
 ### Import Data
 
