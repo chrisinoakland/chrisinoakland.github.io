@@ -15,6 +15,9 @@ Fixing labels and headers using Python.
 
 ### Introduction
 
+Using Python to read in data files and clean them up.
+
+```python
 # ----------| FIXING LABELS/HEADERS |----------
 
 # Instructions:
@@ -27,7 +30,7 @@ Fixing labels and headers using Python.
 # This portion of the code will read the UNICEF files and clean them up
 
 from csv import DictReader
-```python
+
 data = DictReader(open('mn.csv', 'rt', encoding='utf-8'))
 header = DictReader(open('mn_headers.csv', 'rt', encoding='utf-8'))
 
