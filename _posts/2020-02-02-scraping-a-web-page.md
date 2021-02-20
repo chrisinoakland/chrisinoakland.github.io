@@ -25,23 +25,6 @@ import requests
 import pprint
 from selenium import webdriver
 
-
-# 1) Connect to the Internet using Python Library urllib (Data Wrangling with Python? pg 298-300), follow the
-# example in the book to connect to the same website or a different website and submit your code.
-
-# 2) Reading a Web Page with Beautiful Soup:
-
-# Following the example starting on page 300-304 of Data Wrangling
-# with Python, use the Beautiful Soup Python library to scrape a web page. The result should be data
-# and output in an organized format. Each of the data entries should be in its own dictionary with matching keys.
-
-# 3) Web scraping with Selenium:
-
-# Follow along with your book starting on page 318-329 of Data Wrangling with Python.
-# At the end of the exercise, you should be able to go to a site, fill out a form, submit the form, and then
-# scroll through the results with the code you wrote. Make sure to submit the code and your output.
-
-
 # ----------| 1) SCRAPE A WEB PAGE |----------
 
 with urllib.request.urlopen('https://podshop.com') as response:
