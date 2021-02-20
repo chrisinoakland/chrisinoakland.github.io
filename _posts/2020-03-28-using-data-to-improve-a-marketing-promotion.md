@@ -14,7 +14,7 @@ header:
     image: /assets/images/baseball.jpg
 ---
 
-An exercise of using R and Python to improve a marketing promotion in Major League Baseball.
+An exercise using R and Python to improve a marketing promotion in Major League Baseball.
 
 ### Introduction
 
