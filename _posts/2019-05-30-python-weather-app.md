@@ -20,14 +20,6 @@ An application that prompts the user for a city or zip code and requests a weath
 weatherApp.py retrieves the requested city data from OWM, pulls in reverse-geolocation state and county/province information using the reverse_geocoder module, and then presents the data to the user in an easy-to-read format.
 
 ```python
-#
-# File: weatherApp.py
-# Name: Christopher M. Anderson
-# Date: 05/30/2019
-# Course: DSC510 Intro to Programming
-# Week: 12
-# Assignment Number: 12.1
-
 # Program Purpose:
 #
 # An application that prompts the user for a city or zip code and requests a
