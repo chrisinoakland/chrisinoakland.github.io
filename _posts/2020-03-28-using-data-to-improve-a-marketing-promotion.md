@@ -1,5 +1,5 @@
 ---
-title: "Using Data to Improve a Marketing Promotion"
+title: "Using R and Python to Improve a Marketing Promotion"
 date: 2020-03-28T15:17:12-04:00
 categories:
   - blog
@@ -14,7 +14,9 @@ header:
     image: /assets/images/baseball.jpg
 ---
 
-An exercise of using data to improve a marketing promotion in Major League Baseball.
+An exercise of using R and Python to improve a marketing promotion in Major League Baseball.
+
+Using Major League Baseball fan attendance data from 2012, use R and Python to determine what night would be the best to run a marketing promotion to increase attendance.
 
 ### Introduction
 
