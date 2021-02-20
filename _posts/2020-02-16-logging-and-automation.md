@@ -19,14 +19,6 @@ How to use Python to perform logging and automation.
 This code provides a how-to on using Python to automate and set up logging of Twitter data and using Twilio to send messages on the status of the process. 
 
 ```python
-# File: Exercise10_2.py
-# Name: Christopher M. Anderson
-# Date: 02/16/2020
-# Course: DSC540 Data Preparation
-# Week: 10
-# Assignment Exercise: 10.2: Logging and Automation
-
-
 import oauth2
 import logging
 from datetime import datetime
