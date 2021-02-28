@@ -79,6 +79,65 @@ Yes, my method is working with no issues, and I plan to present updated visuals 
 
 One of the biggest challenges I had was one that I touched on earlier, and that was getting compiled airline fatality and crash data for the year 2020 from Aviation Safety Network (ASN), the primary resource used for the project data. I am convinced that is only because that data is compiled and presented in the format that I was used to seeing for the other years sometime later in the year, and it just hadn’t been done yet this early in 2021 for the 2020 year. As discussed, I copied and pasted the table of individual crashes from 2020 from their website into my own spreadsheet and was able to do the summary and count functions easily.
 
+## Project Report
+
+### Abstract
+
+Flying has long been considered one of the safest ways to travel — particularly when compared to automobiles. However, because of recent unfortunate airline crashes, it is now being presented to the public as one of the most dangerous. In fact, numerous media outlets around the country have been touting statistics stating that flying is no longer a safe way of traveling. News and media outlets have bombarded the public with statistics and figures about airline safety trends, and are reporting, overall, that things do not look good for the industry. With that narrative in mind, a study was undertaken to look into historical data of airline and automobile incidents, crashes, and fatalities, and also to dig deeper into the underlying factors of the most recent airline crashes, to truly understand if what is being presented by the media is accurate.
+
+### Introduction and Background
+
+This report will focus on the safety of airline travel and whether more recent crashes are a cause for concern for both the airline industry and the general public. This report is intended to focus more on the data presentation and visualization component of the field of data science, and while there is more than just exploratory data analysis involved, the primary objective of this project and this report is to show the data’s findings — the data story — in a manner that can be easily consumed and understood by everyone, from business executives making decisions involving billions of dollars about their airlines, to the average individual wanting to make a personal decision about whether they will be safe if they choose to book a ticket and fly to visit family.
+
+
+### Problem Statement
+
+The primary problem I would like to solve is determining if any of the relatively recent concerns and fear of flying are actually warranted, or if they are overblown. Is flying still safe? Are there any common underlying factors that are causing airline crashes?
+
+### Data Sources
+
+The data I’ll be working with for this project will come from the National Transportation Safety Board (NTSB), the National Highway Traffic Safety Administration (NHTSA), and the Aviation Safety Network:
+
+* Aviation Safety Network (ASN): Databases from [https://aviation-safety.net/database/](https://aviation-safety.net/database/)
+* National Highway Traffic Safety Administration (NHTSA): Data from [https://www.nhtsa.gov/data](https://www.nhtsa.gov/data)
+* National Transportation Safety Board (NTSB): Data from [https://www.ntsb.gov](https://www.ntsb.gov)
+
+### Methods and Technical Approach
+
+The information presented here is built upon information from airline safety data provided by the [Aviation Safety Network](aviation-safety.net/index.php), which has aviation safety records dating back to 1919. For the scope of this project, I will be looking into 35 years worth of airline incident, accident, and fatality information — more specifically those from the years 1985 through 2020. Using that information, I will look for trends when comparing the airline incident and fatality data from three different chunks of time, one grouping from 1985 through 1999, another from 2000 through 2014, and the last from 2015 through 2020. By comparing these three different chunks of airline safety data, any solid correlations should present themselves relatively clearly. For example, is it the same airlines that are having safety issues across this 35 year span? Are there any patterns in the geographical location of the airlines that have incidents? What about aircraft? Is there any data that shows a particular type of make or model of aircraft that is prevalent in the airline incident, crash, or fatality statistics?
+
+As a means of comparison to one of the most common methods of travel — and to accurately have a comparison of fatality data — a supplemental data set from the [NHTSA (National Highway Traffic Safety Administration)](https://www.nhtsa.gov/data) with automobile fatality information covers similar years and allows for a one-to-one study of fatality numbers across these most common uses of travel throughout the world.
+
+### Examining the Data
+
+To answer the question of whether flying is still safe, we look to the data; it is telling a far different story than the one projected in media reports. The following two charts show the top ten fatal accidents in the airline industry over two different chunks of 30 years of data:
+
+![Chart 1](/assets/images/airplane_auto_fatalaties_84-99.png) ![Chart 2](/assets/images/airplane_auto_fatalaties_00-14.png)
+
+When looking at the fatal accident data from 1985 through 1999 on the left and the accident data from 2000 through 2014 on the right, it is easy to see that it is not the same exact airlines experiencing fatal accidents over these 30 years, rather, it is somewhat random: the same airlines that had fatal accidents in the past were not prone to repeat them. Another big piece of information from the airline fatality data is that the total number of fatalities is actually decreasing, and by a rather significant amount:
+
+![Chart 3](/assets/images/plave_facts.png)
+
+In fact, the total number of fatal accidents across all airlines from 1985 through 1999 was 122, while the number from 2000 through 2014 was 37, a decrease of 70%.
+
+The more recent events of Boeing’s 737 MAX aircraft and its MCAS problems highlight the issues driving the recent media push to question the safety of air travel. In fact, I argue that this particular aircraft and its issues are the primary impetus for the outcry:
+
+![Chart 4](/assets/images/737_MAX.png)
+
+The fatalities from this particular aircraft came from two different flights less than six months apart in late 2019 and early 2019, each from different airlines. But their common bond is the flaw in the aircraft’s hardware and software system (MCAS) that automatically control the pitch of the aircraft if it detects a stall position. Not long after the second crash of a 737 MAX aircraft, the entire fleet was grounded worldwide.
+
+The last story to come from the safety data is the most compelling. This data compares total fatalities from flying and driving over the years 1985 through 2020. The difference in the fatality numbers is striking:
+
+![Chart 5](/assets/images/Fatalaties_1.png)
+![Chart 6](/assets/images/Fatalaties_2.png)
+
+Conclusion
+Based upon the findings, despite recent fears of flying, with the exception of a faulty hardware and software system on one particular aircraft (Boeing’s 737 MAX), traveling by plane is still extremely safe compared to other methods of travel.
+
+Airlines that had incidents or fatal crashes in the past are not necessarily prone to have them happen again. Also, the data shows that the number of incidents and fatalities over 30 years have dropped quite a bit, and they are not particular to one geographic location, though there is evidence that airlines from developing countries are more prone to incidents, accidents, and fatalities.
+
+Comparing the fatalities of airline travelers and those in automobiles provides a rather telling statistic: between the years of 2000 and 2014, the total number of fatalities from airline and auto crashes was 579,655. Of that number, airline fatalities make up half of one percent of that total. Flying continues to be one of the safest methods of getting from one location to another.
+
 ### References and Annotations:
 
 1. Silver, Nate. (2014). “Should Travelers Avoid Flying Airlines That Have Had Crashes in the Past?” from [https://fivethirtyeight.com/features/should-travelers-avoid-flying-airlines-that-have-had-crashes-in-the-past/](https://fivethirtyeight.com/features/should-travelers-avoid-flying-airlines-that-have-had-crashes-in-the-past/).
@@ -100,3 +159,47 @@ One of the biggest challenges I had was one that I touched on earlier, and that 
 9. National Transportation Safety Board. (2018). “Investigation of Lion Air Flight 610 and Ethiopian Airlines Flight 302” from [https://www.ntsb.gov/investigations/Pages/DCA19RA017-DCA19RA101.aspx](https://www.ntsb.gov/investigations/Pages/DCA19RA017-DCA19RA101.aspx).
 
  10. National Transportation Safety Board. (2019). “NTSB Issues 7 Safety Recommendations to FAA related to Ongoing Lion Air, Ethiopian Airlines Crash Investigations” from [https://www.ntsb.gov/news/press-releases/Pages/NR20190926.aspx](https://www.ntsb.gov/news/press-releases/Pages/NR20190926.aspx).
+
+## Questions and Answers
+
+_Why did you choose this as a project subject?_
+
+I really enjoyed the Data Visualization and Presentation course in Bellevue University’s Data Science program, most likely because it’s the perfect intersection of data and design, an intersection that’s right in my wheelhouse as an interface architect and interface designer in my day job. The primary project in that course taught us how to use numerous tools and programs to “tell the data’s story” and I wanted to continue looking into airline safety data with data from the last six years.
+
+_Did anything during this project surprise you? In what way?_
+
+There were not too many surprises with this project, as the data from 1985 through 2014 seemed to carry on with years 2015 through 2020 — travel by airline is still extremely safe; however, there was one rather big surprise.  For the year 2017, there was an extremely low number of airline fatalities with only 44 deaths as a results of ten crashes. That is almost mind blowing when you stop to think about it! Certainly any number of fatalities are horrific, but the fact that only 44 lives were lost in airline crashes that year definitely stood out to me when looking over the data from years 2015 through 2020.
+
+_Is there anything that you would have done differently?_
+
+I think for the scope of this project that the methods taken were very sufficient and worked out really well, Perhaps I could have looked more into individual airlines from these laters years of data and presented that. Another item that could have been useful to dig deeper into would be the reason(s) for airline crashes such as human error, mechanical failure, etc.
+
+_Did you get all of the answers to your research questions?_
+
+Yes, I was able to get all of the answers to my research questions, primarily the answer to if the years 2015 through 2020 would show that flying is still a safe means of travel, despite more recent events.
+
+_What would you have liked to have gone better?_
+
+I’m not sure that I have a good answer for this one, as I was pretty happy about how everything with the project went.
+
+_How do you feel about the impact of data visualization?_
+
+Data visualization is such an important tool. Just as getting the data’s story accurate is essential, so is presenting it. Data visualization is like music or a movie; there’s a story being told and the ability to do it in a way that captures the audience is essential. Cluttered and/or confusing visuals make all of the hard work of the previous steps in the flow of data science all for nothing.
+
+_What good (if any) came as a result of this project?_
+
+For me personally, I was glad to see the data showing that airline travel is still extremely safe. With the 737 MAX issues, I was really starting to worry about flying, but once I understood that there were hardware, software, and regulatory issues at fault, and just for this new aircraft, I felt relieved.
+
+_Are there any other research questions you would like to try to find answers for?_
+
+One of the items from the last few weeks that might be worth exploring is engine fan blade issues and how prevalent that internal stress fractures are within fan blades. Does this issue impact just particular engines and designs. Also, why did the entire engine cowling for the flight that left Denver for Honolulu break away? That is not supposed to happen.
+
+_Is data visualization the most important aspect of data science?_
+
+I don’t know if it’s the most important, but it certainly is extremely important. The old adage that “a picture is worth a thousand words” is very appropriate in the ream of data science, for sure.
+
+_Is data visualization something that you would like to continue working on?_
+
+Presenting data stories through data visualization is definitely something I’d like to continue working on. I’ve always been drawn to well-done data visuals and graphics. The more influential ones I’ve seen lately are interactive and are extremely effective and really make the audience stop and thing. This one recently done by Reuters reflecting the 500,000 lives lost to COVID-19 is a great example of that: [https://graphics.reuters.com/HEALTH-CORONAVIRUS/USA-CASUALTIES-CHRONOLOGY/xklpyomnrpg/index.html](https://graphics.reuters.com/HEALTH-CORONAVIRUS/USA-CASUALTIES-CHRONOLOGY/xklpyomnrpg/index.html).
+
+## Project Presentation
