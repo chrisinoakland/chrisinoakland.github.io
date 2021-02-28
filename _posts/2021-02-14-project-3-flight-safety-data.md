@@ -19,6 +19,7 @@ A project to explore airplane flight safety data and statistics.
 - [Project Check-In](#project-check-in)
 - [Project Report](#project-report)
 - [Questions and Answers](#questions-and-answers)
+- [Full Infographic](#full-infographic)
 - [Project Presentation](#project-presentation)
 
 ## Project Proposal
@@ -139,10 +140,6 @@ Airlines that had incidents or fatal crashes in the past are not necessarily pro
 
 Comparing the fatalities of airline travelers and those in automobiles provides a rather telling statistic: between the years of 1985 and 2020, the total number of fatalities from airline and auto crashes was 1,437,182. Of that number, airline fatalities make up only one percent of that total. Flying continues to be one of the safest methods of getting from one location to another.
 
-### Infographic
-
-![Chart 7](/assets/images/Infographic.png)
-
 ### References and Annotations:
 
 1. Silver, Nate. (2014). “Should Travelers Avoid Flying Airlines That Have Had Crashes in the Past?” from [https://fivethirtyeight.com/features/should-travelers-avoid-flying-airlines-that-have-had-crashes-in-the-past/](https://fivethirtyeight.com/features/should-travelers-avoid-flying-airlines-that-have-had-crashes-in-the-past/).
@@ -206,5 +203,9 @@ I don’t know if it’s the most important, but it certainly is extremely impor
 _Is data visualization something that you would like to continue working on?_
 
 Presenting data stories through data visualization is definitely something I’d like to continue working on. I’ve always been drawn to well-done data visuals and graphics. The more influential ones I’ve seen lately are interactive and are extremely effective and really make the audience stop and thing. This one recently done by Reuters reflecting the 500,000 lives lost to COVID-19 is a great example of that: [https://graphics.reuters.com/HEALTH-CORONAVIRUS/USA-CASUALTIES-CHRONOLOGY/xklpyomnrpg/index.html](https://graphics.reuters.com/HEALTH-CORONAVIRUS/USA-CASUALTIES-CHRONOLOGY/xklpyomnrpg/index.html).
+
+## Full Infographic
+
+![Chart 7](/assets/images/Infographic.png)
 
 ## Project Presentation
