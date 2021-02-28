@@ -116,7 +116,7 @@ To answer the question of whether flying is still safe, we look to the data; it 
 
 When looking at the fatal accident data from 1985 through 1999 on the left and the accident data from 2000 through 2014 on the right, it is easy to see that it is not the same exact airlines experiencing fatal accidents over these 30 years, rather, it is somewhat random: the same airlines that had fatal accidents in the past were not prone to repeat them. Another big piece of information from the airline fatality data is that the total number of fatalities is actually decreasing, and by a rather significant amount:
 
-![Chart 3](/assets/images/plave_facts.png)
+![Chart 3](/assets/images/plane_facts.png)
 
 In fact, the total number of fatal accidents across all airlines from 1985 through 1999 was 122, while the number from 2000 through 2014 was 37, a decrease of 70%.
 
