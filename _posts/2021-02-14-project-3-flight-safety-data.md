@@ -112,7 +112,7 @@ As a means of comparison to one of the most common methods of travel — and to 
 
 To answer the question of whether flying is still safe, we look to the data; it is telling a far different story than the one projected in media reports. The following two charts show the top ten fatal accidents in the airline industry over two different chunks of 30 years of data:
 
-![Chart 1](/assets/images/airplane_auto_fatalaties_84-99.png) ![Chart 2](/assets/images/airplane_auto_fatalaties_00-14.png)
+![Chart 1](/assets/images/airplane_auto_fatalaties_84-99.png) | ![Chart 2](/assets/images/airplane_auto_fatalaties_00-14.png)
 
 When looking at the fatal accident data from 1985 through 1999 on the left and the accident data from 2000 through 2014 on the right, it is easy to see that it is not the same exact airlines experiencing fatal accidents over these 30 years, rather, it is somewhat random: the same airlines that had fatal accidents in the past were not prone to repeat them. Another big piece of information from the airline fatality data is that the total number of fatalities is actually decreasing, and by a rather significant amount:
 
@@ -131,7 +131,8 @@ The last story to come from the safety data is the most compelling. This data co
 ![Chart 5](/assets/images/Fatalaties_1.png)
 ![Chart 6](/assets/images/Fatalaties_2.png)
 
-Conclusion
+### Conclusion
+
 Based upon the findings, despite recent fears of flying, with the exception of a faulty hardware and software system on one particular aircraft (Boeing’s 737 MAX), traveling by plane is still extremely safe compared to other methods of travel.
 
 Airlines that had incidents or fatal crashes in the past are not necessarily prone to have them happen again. Also, the data shows that the number of incidents and fatalities over 30 years have dropped quite a bit, and they are not particular to one geographic location, though there is evidence that airlines from developing countries are more prone to incidents, accidents, and fatalities.
