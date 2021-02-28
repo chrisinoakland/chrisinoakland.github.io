@@ -138,6 +138,11 @@ Based upon the findings, despite recent fears of flying, with the exception of a
 Airlines that had incidents or fatal crashes in the past are not necessarily prone to have them happen again. Also, the data shows that the number of incidents and fatalities over 30 years have dropped quite a bit, and they are not particular to one geographic location, though there is evidence that airlines from developing countries are more prone to incidents, accidents, and fatalities.
 
 Comparing the fatalities of airline travelers and those in automobiles provides a rather telling statistic: between the years of 1985 and 2020, the total number of fatalities from airline and auto crashes was 1,437,182. Of that number, airline fatalities make up only one percent of that total. Flying continues to be one of the safest methods of getting from one location to another.
+
+### Infographic
+
+![Chart 7](/assets/images/Infographic.png)
+
 ### References and Annotations:
 
 1. Silver, Nate. (2014). “Should Travelers Avoid Flying Airlines That Have Had Crashes in the Past?” from [https://fivethirtyeight.com/features/should-travelers-avoid-flying-airlines-that-have-had-crashes-in-the-past/](https://fivethirtyeight.com/features/should-travelers-avoid-flying-airlines-that-have-had-crashes-in-the-past/).
