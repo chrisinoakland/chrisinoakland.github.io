@@ -13,11 +13,6 @@ header:
 
 An extended abstract and research poster about the harm that Facebook is causing humanity. 
 
-- [Extended Abstract](#extended-abstract)
-- [Research Poster](#research-poster)
-
-## Extended Abstract
-
 ### Abstract
 
 The service we now know as Facebook is a multi-billion dollar corporation. For a lot of the world it is their primary or only news source. It is information and history. It is science and current events. Politics. Religion. Friends. Family. Business. To me, Facebook is something else entirely. It is a series of seemingly never-ending questions. For example, have you ever stopped to ask yourself if is it truth? By that I mean is all of what you see, read, hear and watch on Facebook accurate? [16, 23] Why does it show you the ads it shows you? [1] What about its suggestions for friends to add? Does being on Facebook make you mad? Does it make you feel inferior? What about sad? Have you ever had the impulse to ‘quit’ Facebook? Did you go through with it? Did you come crawling back for fear of missing out?
@@ -117,3 +112,8 @@ From an ethical standpoint, Facebook went from bad to worse when they went publi
 ![Facebook is Causing Detrimental Harm to Humanity](/assets/images/Christopher_Anderson_Research_Poster_Facebook_Harm.png)
 
 [Full-size PDF](/assets/images/Christopher_Anderson_Research_Poster_Facebook_Harm.pdf)
+
+## Contents
+
+- [Extended Abstract](#abstract)
+- [Research Poster](#research-poster)
