@@ -192,6 +192,8 @@ Presenting data stories through data visualization is definitely something I’d
 ## Project Presentation
 
 
+## Contents
+
 - [Project Report](#abstract)
 - [Project Proposal](#project-proposal)
 - [Project Check-In](#project-check-in)

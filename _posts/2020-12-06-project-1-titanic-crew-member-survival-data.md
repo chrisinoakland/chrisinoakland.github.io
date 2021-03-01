@@ -430,6 +430,8 @@ I am torn. On one hand I would love to see parts and artifacts of what is left o
 
 [Microsoft PowerPoint format](/assets/TitanicCrewMemberSurvivalData.pptx)
 
+## Contents
+
 - [Project Report](#abstract)
 - [Project Proposal](#project-proposal)
 - [Project Check-In](#project-check-in)
