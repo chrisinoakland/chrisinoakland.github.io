@@ -9,7 +9,7 @@ tags:
   - projects
 classes: wide
 header:
-  image: /assets/images/titanic-propellers-harland-wolff-shipyard-belfast1911.jpg
+  image: /assets/images/titanic-propellers-1911.jpg
 ---
 
 A project to explore the data of the crew members aboard _RMS Titanic_ and their survival rate.
