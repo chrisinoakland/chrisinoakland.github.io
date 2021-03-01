@@ -307,12 +307,6 @@ While there was not much correlation to the port (city) in which the crew member
 9. RMS Titanic - Ship of Dreams. (2014). “Designing & Building Titanic” from [http://www.titanicandco.com/construction.html](http://www.titanicandco.com/construction.html)
 10. History. (2020, October 30). “Titanic by the Numbers: From Construction to Disaster to Discovery” from [https://www.history.com/news/titanic-facts- construction-passengers-sinking-discovery](https://www.history.com/news/titanic-facts- construction-passengers-sinking-discovery)
 
-- [Project Report](#introduction)
-- [Project Proposal](#project-proposal)
-- [Project Check-In](#project-check-in)
-- [Questions and Answers](#questions-and-answers)
-- [Project Presentation](#project-presentation)
-
 ## Project Proposal
 
 ### Which Domain?
@@ -435,3 +429,9 @@ I am torn. On one hand I would love to see parts and artifacts of what is left o
 [Apple Keynote format](/assets/TitanicCrewMemberSurvivalData.key)
 
 [Microsoft PowerPoint format](/assets/TitanicCrewMemberSurvivalData.pptx)
+
+- [Project Report](#introduction)
+- [Project Proposal](#project-proposal)
+- [Project Check-In](#project-check-in)
+- [Questions and Answers](#questions-and-answers)
+- [Project Presentation](#project-presentation)
