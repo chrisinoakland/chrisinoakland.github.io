@@ -23,7 +23,6 @@ Flying has long been considered one of the safest ways to travel — particularl
 
 This report will focus on the safety of airline travel and whether more recent crashes are a cause for concern for both the airline industry and the general public. This report is intended to focus more on the data presentation and visualization component of the field of data science, and while there is more than just exploratory data analysis involved, the primary objective of this project and this report is to show the data’s findings — the data story — in a manner that can be easily consumed and understood by everyone, from business executives making decisions involving billions of dollars about their airlines, to the average individual wanting to make a personal decision about whether they will be safe if they choose to book a ticket and fly to visit family.
 
-
 ### Problem Statement
 
 The primary problem I would like to solve is determining if any of the relatively recent concerns and fear of flying are actually warranted, or if they are overblown. Is flying still safe? Are there any common underlying factors that are causing airline crashes?
