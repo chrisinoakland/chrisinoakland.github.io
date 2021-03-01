@@ -317,8 +317,8 @@ I would most definitely like to continue working on the fantasy football player 
 
 [Microsoft PowerPoint format](/assets/Fantasy_Football_Player_Rankings.pptx)
 
-- [Project Proposal](#abstract)
+- [Project Report](#abstract)
+- [Project Proposal](#project-proposal)
 - [Project Check-In](#project-check-in)
-- [Project Report](#project-report)
 - [Questions and Answers](#questions-and-answers)
 - [Project Presentation](#project-presentation)
