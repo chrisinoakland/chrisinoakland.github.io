@@ -14,7 +14,7 @@ header:
 
 A project to explore the data of the crew members aboard _RMS Titanic_ and their survival rate.
 
-### Introduction
+### Abstract
 
 The tragedy of the Titanic disaster has captivated me since I was a young boy. When I was twelve, I used to draw the ship using large pieces of paper taped together. After Titanic was discovered on the ocean floor by Dr. Robert Ballard and his crew in late July of 1985, I collected almost everything I could find on it: (newspaper clippings, magazines, books, etc.) And yes, I absolutely loved the movie “Titanic” by James Cameron, not necessarily for the story line of Jack and Rose, but because of the way Cameron painstaking re-created what the ship looked like — it was simply stunning to see something that I had imagined and only seen black and white photos of on full display in full color and vivid and intricate detail! The next great bit for me as a Titanic history buff was taking my family to see artifacts from the ship on display when an exhibit came to Omaha. While I will not delve into the ethics or legality of plucking items from a shipping disaster from the ocean floor, or share my thoughts on who actually owns the items and their rights to salvage them, I will say that seeing those personal items and especially a large chunk of steel from the ship — including port holes — was very moving.
 
@@ -430,7 +430,7 @@ I am torn. On one hand I would love to see parts and artifacts of what is left o
 
 [Microsoft PowerPoint format](/assets/TitanicCrewMemberSurvivalData.pptx)
 
-- [Project Report](#introduction)
+- [Project Report](#abstract)
 - [Project Proposal](#project-proposal)
 - [Project Check-In](#project-check-in)
 - [Questions and Answers](#questions-and-answers)
