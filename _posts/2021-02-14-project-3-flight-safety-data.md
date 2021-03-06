@@ -191,6 +191,9 @@ Presenting data stories through data visualization is definitely something I’d
 
 ## Project Presentation
 
+[Apple Keynote format](/assets/Airline_Safety_Data.key)
+
+[Microsoft PowerPoint format](/assets/Airline_Safety_Data.pptx)
 
 ## Contents
 
